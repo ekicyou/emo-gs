@@ -22,9 +22,6 @@ trait Shiori3 : Drop {
     }
 }
 
-
-
-
 struct Shiori3DI<T>
 where
     T: Shiori3,
