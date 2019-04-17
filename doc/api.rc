@@ -1,9 +1,14 @@
 // interface
 
-trait Shiori3 {
+trait Shiori3 : Drop {
     fn load(&self, dir: &u8[]) -> Result<(), failure::Error>;
     fn unload(&self) -> Result<std::Error, failure::Error>;
     fn request(&self, req: &'a u8[]) -> Result< &'a u8[], failure::Error>;
+
+    // Drop
+    fn drop(&mut self) {
+        self.unload();
+    }
 
     // win32 api
     fn win32_load(&self, h_dir: HANDLE) -> bool{
@@ -16,6 +21,7 @@ trait Shiori3 {
         unimplemented!();
     }
 }
+
 
 
 
