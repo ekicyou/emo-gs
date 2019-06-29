@@ -1,0 +1,14 @@
+
+charset,Shift_JIS
+
+craftman,mitamura
+craftmanw,‚İ‚½‚Ş‚ç
+craftmanurl,https://aburage.blogspot.com/
+
+type,shell
+id,sanshoku
+name,OF’cq
+
+
+
+seriko.use_self_alpha,1

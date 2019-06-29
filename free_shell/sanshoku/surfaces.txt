@@ -1,0 +1,603 @@
+
+charset,Shift_JIS
+
+descript
+{
+	version,1
+}
+
+
+
+//satolist.palette.offset,70,80
+
+surface0
+{
+//ïÅí 
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0111.png,0,0
+	element2,overlay,surface0121.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface11
+{
+//ç¢ÇË
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0112.png,0,0
+	element2,overlay,surface0121.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface12
+{
+//ì{ÇË
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0113.png,0,0
+	element2,overlay,surface0121.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface13
+{
+//èŒÇ›
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0111.png,0,0
+	element2,overlay,surface0121.png,0,0
+	element3,overlay,surface0144.png,0,0
+}
+
+surface14
+{
+//ã¡Ç´
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0114.png,0,0
+	element2,overlay,surface0121.png,0,0
+	element3,overlay,surface0143.png,0,0
+}
+
+surface15
+{
+//ÉWÉgñ⁄
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0111.png,0,0
+	element2,overlay,surface0122.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface16
+{
+//ñ⁄ï¬Ç∂
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0111.png,0,0
+	element2,overlay,surface0123.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface17
+{
+//ñ⁄ï¬Ç∂ç¢ÇË
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0112.png,0,0
+	element2,overlay,surface0123.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface18
+{
+//ñ⁄ï¬Ç∂èŒÇ›
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0111.png,0,0
+	element2,overlay,surface0123.png,0,0
+	element3,overlay,surface0144.png,0,0
+}
+
+surface19
+{
+//èŒÇ¢
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0111.png,0,0
+	element2,overlay,surface0124.png,0,0
+	element3,overlay,surface0145.png,0,0
+}
+
+surface20
+{
+//Ç€Ç©ÇÒ
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0111.png,0,0
+	element2,overlay,surface0125.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface21
+{
+//ñ_ñ⁄
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0112.png,0,0
+	element2,overlay,surface0126.png,0,0
+	element3,overlay,surface0142.png,0,0
+	element4,overlay,surface0151.png,0,0
+}
+
+surface30
+{
+//0î‘+è∆ÇÍ
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0111.png,0,0
+	element2,overlay,surface0131.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface31
+{
+//11î‘+è∆ÇÍ
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0112.png,0,0
+	element2,overlay,surface0131.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface32
+{
+//12î‘+è∆ÇÍ
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0113.png,0,0
+	element2,overlay,surface0131.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface33
+{
+//13î‘+è∆ÇÍ
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0111.png,0,0
+	element2,overlay,surface0131.png,0,0
+	element3,overlay,surface0144.png,0,0
+}
+
+surface34
+{
+//14î‘+è∆ÇÍ
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0114.png,0,0
+	element2,overlay,surface0131.png,0,0
+	element3,overlay,surface0143.png,0,0
+}
+
+surface35
+{
+//15î‘+è∆ÇÍ
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0111.png,0,0
+	element2,overlay,surface0132.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface36
+{
+//16î‘+è∆ÇÍ
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0111.png,0,0
+	element2,overlay,surface0133.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface37
+{
+//17î‘+è∆ÇÍ
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0112.png,0,0
+	element2,overlay,surface0133.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface38
+{
+//18î‘+è∆ÇÍ
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0111.png,0,0
+	element2,overlay,surface0133.png,0,0
+	element3,overlay,surface0144.png,0,0
+}
+
+surface39
+{
+//19î‘+è∆ÇÍ
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0111.png,0,0
+	element2,overlay,surface0134.png,0,0
+	element3,overlay,surface0145.png,0,0
+}
+
+surface40
+{
+//20î‘+è∆ÇÍ
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0111.png,0,0
+	element2,overlay,surface0135.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface41
+{
+//21î‘+è∆ÇÍ
+	element0,overlay,surface0000.png,0,0
+	element1,overlay,surface0112.png,0,0
+	element2,overlay,surface0136.png,0,0
+	element3,overlay,surface0142.png,0,0
+	element4,overlay,surface0151.png,0,0
+}
+
+surface50
+{
+//Ç‚ÇÍÇ‚ÇÍ
+	element0,overlay,surface0001.png,0,0
+	element1,overlay,surface0112.png,0,0
+	element2,overlay,surface0123.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface51
+{
+//ïÇÍ
+	element0,overlay,surface0001.png,0,0
+	element1,overlay,surface0112.png,0,0
+	element2,overlay,surface0123.png,0,0
+	element3,overlay,surface0144.png,0,0
+}
+
+surface55
+{
+//50î‘+è∆ÇÍ
+	element0,overlay,surface0001.png,0,0
+	element1,overlay,surface0112.png,0,0
+	element2,overlay,surface0133.png,0,0
+	element3,overlay,surface0141.png,0,0
+}
+
+surface56
+{
+//51î‘+è∆ÇÍ
+	element0,overlay,surface0001.png,0,0
+	element1,overlay,surface0112.png,0,0
+	element2,overlay,surface0133.png,0,0
+	element3,overlay,surface0144.png,0,0
+}
+
+surface60
+{
+//òrëgÇ›
+	element0,overlay,surface0002.png,0,0
+	element1,overlay,surface0211.png,0,0
+	element2,overlay,surface0221.png,0,0
+	element3,overlay,surface0241.png,0,0
+}
+
+surface61
+{
+//òrëgÇ›ç¢ÇË
+	element0,overlay,surface0002.png,0,0
+	element1,overlay,surface0212.png,0,0
+	element2,overlay,surface0221.png,0,0
+	element3,overlay,surface0241.png,0,0
+}
+
+surface62
+{
+//òrÇ≠Ç›ì{ÇË
+	element0,overlay,surface0002.png,0,0
+	element1,overlay,surface0213.png,0,0
+	element2,overlay,surface0221.png,0,0
+	element3,overlay,surface0241.png,0,0
+}
+
+surface63
+{
+//òrëgÇ›ï–ñ⁄
+	element0,overlay,surface0002.png,0,0
+	element1,overlay,surface0211.png,0,0
+	element2,overlay,surface0222.png,0,0
+	element3,overlay,surface0241.png,0,0
+}
+
+surface64
+{
+//òrëgÇ›ñ⁄ï¬Ç∂
+	element0,overlay,surface0002.png,0,0
+	element1,overlay,surface0211.png,0,0
+	element2,overlay,surface0223.png,0,0
+	element3,overlay,surface0241.png,0,0
+}
+
+surface65
+{
+//òrëgÇ›îYÇ›
+	element0,overlay,surface0002.png,0,0
+	element1,overlay,surface0212.png,0,0
+	element2,overlay,surface0223.png,0,0
+	element3,overlay,surface0241.png,0,0
+}
+
+surface66
+{
+//òrëgÇ›çlÇ¶éñ
+	element0,overlay,surface0002.png,0,0
+	element1,overlay,surface0213.png,0,0
+	element2,overlay,surface0223.png,0,0
+	element3,overlay,surface0241.png,0,0
+}
+
+surface70
+{
+//60î‘+è∆ÇÍ
+	element0,overlay,surface0002.png,0,0
+	element1,overlay,surface0211.png,0,0
+	element2,overlay,surface0231.png,0,0
+	element3,overlay,surface0241.png,0,0
+}
+
+surface71
+{
+//61î‘+è∆ÇÍ
+	element0,overlay,surface0002.png,0,0
+	element1,overlay,surface0212.png,0,0
+	element2,overlay,surface0231.png,0,0
+	element3,overlay,surface0241.png,0,0
+}
+
+surface72
+{
+//62î‘+è∆ÇÍ
+	element0,overlay,surface0002.png,0,0
+	element1,overlay,surface0213.png,0,0
+	element2,overlay,surface0231.png,0,0
+	element3,overlay,surface0241.png,0,0
+}
+
+surface73
+{
+//63î‘+è∆ÇÍ
+	element0,overlay,surface0002.png,0,0
+	element1,overlay,surface0211.png,0,0
+	element2,overlay,surface0232.png,0,0
+	element3,overlay,surface0241.png,0,0
+}
+
+surface74
+{
+//64î‘+è∆ÇÍ
+	element0,overlay,surface0002.png,0,0
+	element1,overlay,surface0211.png,0,0
+	element2,overlay,surface0233.png,0,0
+	element3,overlay,surface0241.png,0,0
+}
+
+surface75
+{
+//65î‘+è∆ÇÍ
+	element0,overlay,surface0002.png,0,0
+	element1,overlay,surface0212.png,0,0
+	element2,overlay,surface0233.png,0,0
+	element3,overlay,surface0241.png,0,0
+}
+
+surface76
+{
+//66î‘+è∆ÇÍ
+	element0,overlay,surface0002.png,0,0
+	element1,overlay,surface0213.png,0,0
+	element2,overlay,surface0233.png,0,0
+	element3,overlay,surface0241.png,0,0
+}
+
+surface80
+{
+//ïsà¿
+	element0,overlay,surface0003.png,0,0
+	element1,overlay,surface0312.png,0,0
+	element2,overlay,surface0321.png,0,0
+	element3,overlay,surface0341.png,0,0
+}
+
+surface81
+{
+//ãëê‚
+	element0,overlay,surface0003.png,0,0
+	element1,overlay,surface0313.png,0,0
+	element2,overlay,surface0321.png,0,0
+	element3,overlay,surface0341.png,0,0
+}
+
+surface82
+{
+//·“ëz
+	element0,overlay,surface0003.png,0,0
+	element1,overlay,surface0311.png,0,0
+	element2,overlay,surface0322.png,0,0
+	element3,overlay,surface0341.png,0,0
+}
+
+surface83
+{
+//êSí…
+	element0,overlay,surface0003.png,0,0
+	element1,overlay,surface0312.png,0,0
+	element2,overlay,surface0322.png,0,0
+	element3,overlay,surface0341.png,0,0
+}
+
+surface85
+{
+//80î‘+è∆ÇÍ
+	element0,overlay,surface0003.png,0,0
+	element1,overlay,surface0312.png,0,0
+	element2,overlay,surface0331.png,0,0
+	element3,overlay,surface0341.png,0,0
+}
+
+surface86
+{
+//81î‘+è∆ÇÍ
+	element0,overlay,surface0003.png,0,0
+	element1,overlay,surface0313.png,0,0
+	element2,overlay,surface0331.png,0,0
+	element3,overlay,surface0341.png,0,0
+}
+
+surface87
+{
+//82î‘+è∆ÇÍ
+	element0,overlay,surface0003.png,0,0
+	element1,overlay,surface0311.png,0,0
+	element2,overlay,surface0332.png,0,0
+	element3,overlay,surface0341.png,0,0
+}
+
+surface88
+{
+//83î‘+è∆ÇÍ
+	element0,overlay,surface0003.png,0,0
+	element1,overlay,surface0312.png,0,0
+	element2,overlay,surface0332.png,0,0
+	element3,overlay,surface0341.png,0,0
+}
+
+//------------------------------------------------
+//èuÇ´+å˚ÉpÉN
+
+surface.append0,11-15
+{
+//èuÇ´1
+	animation0.interval,random,10
+	animation0.pattern0,overlay,123,0,0,0
+	animation0.pattern1,overlay,-1,100,0,0
+}
+
+surface.append30-35
+{
+//èuÇ´1+è∆ÇÍ
+	animation0.interval,random,10
+	animation0.pattern0,overlay,133,0,0,0
+	animation0.pattern1,overlay,-1,100,0,0
+}
+
+surface.append60-62
+{
+//èuÇ´3
+	animation0.interval,random,10
+	animation0.pattern0,overlay,223,0,0,0
+	animation0.pattern1,overlay,-1,100,0,0
+}
+
+surface.append70-72
+{
+//èuÇ´3+è∆ÇÍ
+	animation0.interval,random,10
+	animation0.pattern0,overlay,233,0,0,0
+	animation0.pattern1,overlay,-1,100,0,0
+}
+
+surface.append80,81
+{
+//èuÇ´4
+	animation0.interval,random,10
+	animation0.pattern0,overlay,322,0,0,0
+	animation0.pattern1,overlay,-1,100,0,0
+}
+
+
+surface.append85,86
+{
+//èuÇ´4+è∆ÇÍ
+	animation0.interval,random,10
+	animation0.pattern0,overlay,332,0,0,0
+	animation0.pattern1,overlay,-1,100,0,0
+}
+
+
+
+surface.append0,11,12,14-17,20,21,30-32,34-37,40,41,50,55
+{
+//å˚ÉpÉN1,2ïÅí 
+	animation1.interval,talk,5
+	animation1.pattern0,overlay,143,0,0,0
+	animation1.pattern1,overlay,-1,100,0,0
+	animation1.pattern2,overlay,143,100,0,0
+	animation1.pattern3,overlay,-1,100,0,0
+}
+
+surface.append13,18,19,33,38,39,51,56
+{
+//å˚ÉpÉN1,2èŒÇ¢
+	animation1.interval,talk,5
+	animation1.pattern0,overlay,146,0,0,0
+	animation1.pattern1,overlay,-1,100,0,0
+	animation1.pattern2,overlay,146,100,0,0
+	animation1.pattern3,overlay,-1,100,0,0
+}
+
+surface.append60-66,70-76
+{
+//å˚ÉpÉN3
+	animation1.interval,talk,5
+	animation1.pattern0,overlay,242,0,0,0
+	animation1.pattern1,overlay,-1,100,0,0
+	animation1.pattern2,overlay,242,100,0,0
+	animation1.pattern3,overlay,-1,100,0,0
+}
+
+surface.append80-83,85-88
+{
+//å˚ÉpÉN4
+	animation1.interval,talk,5
+	animation1.pattern0,overlay,342,0,0,0
+	animation1.pattern1,overlay,-1,100,0,0
+	animation1.pattern2,overlay,342,100,0,0
+	animation1.pattern3,overlay,-1,100,0,0
+}
+
+//------------------------------------------------
+//Ç≥ÇÌÇËîªíË
+
+surface.append0-11-21,30-41
+{
+	collisionex0,Head,polygon,87,53,123,20,187,18,220,50,188,89,101,85
+	collisionex1,Ear,polygon,200,79,244,50,244,86,212,108
+	collisionex2,Mouth,polygon,125,149,152,144,151,159,134,167,122,160
+	collisionex3,Bust,polygon,118,196,175,202,172,246,109,234
+	collisionex4,Belly,polygon,106,269,163,270,183,295,125,312,99,293
+	collisionex5,Thigh,polygon,101,347,145,354,195,344,202,382,160,387,147,356,145,383,106,384
+	collisionex6,Hand,polygon,243,317,252,311,286,343,277,352,251,350
+}
+
+surface.append50,51,55,56
+{
+	collisionex0,Head,polygon,87,53,123,20,187,18,220,50,188,89,101,85
+	collisionex1,Ear,polygon,200,79,244,50,244,86,212,108
+	collisionex2,Mouth,polygon,125,149,152,144,151,159,134,167,122,160
+	collisionex3,Bust,polygon,118,196,175,202,172,246,109,234
+	collisionex4,Belly,polygon,106,269,163,270,183,295,125,312,99,293
+	collisionex5,Thigh,polygon,101,347,145,354,195,344,202,382,160,387,147,356,145,383,106,384
+	collisionex6,Hand,polygon,208,225,237,217,253,234,227,250
+	collisionex7,Hand,polygon,18,220,34,199,58,203,59,221,29,226
+}
+
+surface.append60-66,70-76
+{
+	collisionex0,Head,polygon,89,60,123,21,190,24,225,60,186,89,103,83
+	collisionex1,Ear,polygon,189,86,230,60,227,104,198,121
+	collisionex2,Mouth,polygon,119,160,125,151,143,152,146,162,129,169
+	collisionex3,Bust,polygon,121,193,159,201,157,243,106,227
+	collisionex4,Belly,polygon,108,265,170,264,181,295,117,311,97,292
+	collisionex5,Thigh,polygon,93,345,136,352,174,349,182,381,141,386,136,355,130,385,88,376
+}
+
+surface.append80-83,85-88
+{
+	collisionex0,Head,polygon,90,55,127,16,194,21,222,50,186,89,100,84
+	collisionex1,Ear,polygon,192,82,224,50,229,90,206,113
+	collisionex2,Mouth,polygon,127,158,135,145,153,145,158,158,138,168
+	collisionex3,Bust,polygon,121,193,159,201,157,243,106,227
+	collisionex4,Belly,polygon,108,265,170,264,181,295,117,311,97,292
+	collisionex5,Thigh,polygon,93,345,136,352,174,349,182,381,141,386,136,355,130,385,88,376
+}
