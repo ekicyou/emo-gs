@@ -1,0 +1,6 @@
+{
+    "[txt]": {
+        "files.autoGuessEncoding": false,
+        "files.encoding": "shiftjis"
+    }
+}

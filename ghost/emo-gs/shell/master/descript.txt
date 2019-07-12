@@ -1,18 +1,16 @@
 charset,Shift_JIS
-craftman,okayu
-id,
-name,リトルミス
+
 type,shell
-craftmanw,おかゆ
-craftmanurl,http://soupkitchen.webcrow.jp/
+id,emo-gs
+name,えも？
+
+craftman,okayu/mitamura/ekicyou
+craftmanw,おかゆ/みたむら/えちょ
+craftmanurl,https://ekicyou.github.io/emo-gs/
 
 sakura.balloon.offsetx,20
 sakura.balloon.offsety,70
 kero.balloon.offsetx,-10
 kero.balloon.offsety,20
 
-
-
 seriko.use_self_alpha,1
-
-
