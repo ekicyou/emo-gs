@@ -1,3 +1,4 @@
+title: えも？
 encoding: UTF-8
 kramdown:
   input: GFM
@@ -5,6 +6,5 @@ kramdown:
 future: true
 jailed: false
 theme: jekyll-theme-leap-day
-#theme: leap-day
 #theme: jekyll-theme-primer
 gfm_quirks: paragraph_end
