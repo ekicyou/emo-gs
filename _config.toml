@@ -1,9 +1,0 @@
-encoding    = "UTF-8"
-future      = true
-jailed      = false
-theme       = "jekyll-theme-leap-day"
-gfm_quirks  = "paragraph_end"
-
-[kramdown]
-input       = "GFM"
-hard_wrap   = true
