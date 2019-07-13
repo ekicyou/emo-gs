@@ -1,5 +1,6 @@
-title: えも？
 encoding: UTF-8
+title: えも？
+description: Ghost Emotional
 kramdown:
   input: GFM
   hard_wrap: true
