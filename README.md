@@ -1,2 +1,5 @@
-# emo-gs
+えも？
+======
+
+
 Ghost Emo
