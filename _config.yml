@@ -1,6 +1,9 @@
 encoding: UTF-8
 title: えも？
 description: Ghost Emotional
+github:
+  repository_url: null
+  is_user_page: null
 kramdown:
   input: GFM
   hard_wrap: true
