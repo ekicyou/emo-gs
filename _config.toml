@@ -1,11 +1,9 @@
+encoding    = "UTF-8"
+future      = true
+jailed      = false
+theme       = "jekyll-theme-leap-day"
+gfm_quirks  = "paragraph_end"
 
-github: [metadata]
-encoding: UTF-8
-kramdown:
-  input: GFM
-  hard_wrap: true
-future: true
-jailed: false
-theme: leap-day
-#theme: jekyll-theme-primer
-gfm_quirks: paragraph_end
+[kramdown]
+input       = "GFM"
+hard_wrap   = true
