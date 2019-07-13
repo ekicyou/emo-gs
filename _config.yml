@@ -6,7 +6,7 @@ kramdown:
   hard_wrap: true
 future: true
 jailed: false
-theme: jekyll-theme-hacker
+theme: jekyll-theme-leap-day
 #theme: leap-day
 #theme: jekyll-theme-primer
 gfm_quirks: paragraph_end
