@@ -8,9 +8,16 @@ craftman,okayu/mitamura/ekicyou
 craftmanw,‚¨‚©‚ä/‚Ý‚½‚Þ‚ç/‚¦‚¿‚å
 craftmanurl,https://ekicyou.github.io/emo-gs/
 
+seriko.use_self_alpha,1
+
+kero.seriko.alignmenttodesktop,free
+
+sakura.defaultx,0
+sakura.defaulty,0
+kero.defaultx,318
+kero.defaulty,-168
+
 sakura.balloon.offsetx,20
 sakura.balloon.offsety,70
 kero.balloon.offsetx,-10
 kero.balloon.offsety,20
-
-seriko.use_self_alpha,1

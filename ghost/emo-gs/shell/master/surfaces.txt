@@ -4,8 +4,269 @@ descript
 version,1
 }
 
+sakura.cursor
+{
+	mouseup0,Head,system:hand
+	mousedown0,Head,system:finger
+	mouseup1,Hair,system:hand
+	mousedown1,Hair,system:finger
 
-//¡ƒŠƒgƒ‹ƒ~ƒX
+}
+
+sakura.surface.alias
+{
+    0,[1000]
+    100,[1000]
+    103,[1103]
+    104,[1104]
+    105,[1105]
+    106,[1106]
+    107,[1107]
+    108,[1108]
+    109,[1109]
+    110,[1110]
+    111,[1111]
+    112,[1112]
+    113,[1113]
+    114,[1114]
+    115,[1115]
+    116,[1116]
+    117,[1117]
+    118,[1118]
+    119,[1119]
+    120,[1120]
+    121,[1121]
+    122,[1122]
+    123,[1123]
+    124,[1124]
+    125,[1125]
+    126,[1126]
+    127,[1127]
+    128,[1128]
+    129,[1129]
+    130,[1130]
+    131,[1131]
+    132,[1132]
+    133,[1133]
+    134,[1134]
+    135,[1135]
+    136,[1136]
+    137,[1137]
+    138,[1138]
+    139,[1139]
+    140,[1140]
+    141,[1141]
+    142,[1142]
+    143,[1143]
+    144,[1144]
+    145,[1145]
+    146,[1146]
+    147,[1147]
+    148,[1148]
+    149,[1149]
+    150,[1150]
+    151,[1151]
+    152,[1152]
+    153,[1153]
+    154,[1154]
+    155,[1155]
+    156,[1156]
+    157,[1157]
+    158,[1158]
+    159,[1159]
+    160,[1160]
+    161,[1161]
+    162,[1162]
+    163,[1163]
+    164,[1164]
+    165,[1165]
+    166,[1166]
+    167,[1167]
+    168,[1168]
+    169,[1169]
+    170,[1170]
+    171,[1171]
+    172,[1172]
+    173,[1173]
+    174,[1174]
+    175,[1175]
+    176,[1176]
+    177,[1177]
+    178,[1178]
+    179,[1179]
+    180,[1180]
+    181,[1181]
+    182,[1182]
+    183,[1183]
+    184,[1184]
+    185,[1185]
+    186,[1186]
+    187,[1187]
+    188,[1188]
+    189,[1189]
+    190,[1190]
+    191,[1191]
+    192,[1192]
+    193,[1193]
+    194,[1194]
+    195,[1195]
+    196,[1196]
+    197,[1197]
+    198,[1198]
+    199,[1199]
+    200,[1200]
+    201,[1201]
+    202,[1202]
+    203,[1203]
+    204,[1204]
+    205,[1205]
+    206,[1206]
+    207,[1207]
+    208,[1208]
+    209,[1209]
+    210,[1210]
+    211,[1211]
+    212,[1212]
+    213,[1213]
+    214,[1214]
+    215,[1215]
+    216,[1216]
+    217,[1217]
+    218,[1218]
+    219,[1219]
+    220,[1220]
+    221,[1221]
+    222,[1222]
+    223,[1223]
+    224,[1224]
+    225,[1225]
+    226,[1226]
+    227,[1227]
+    228,[1228]
+    229,[1229]
+    230,[1230]
+    231,[1231]
+    232,[1232]
+    233,[1233]
+    234,[1234]
+    235,[1235]
+    236,[1236]
+    237,[1237]
+    238,[1238]
+    239,[1239]
+    240,[1240]
+    241,[1241]
+    242,[1242]
+    243,[1243]
+    244,[1244]
+    245,[1245]
+    246,[1246]
+    247,[1247]
+    248,[1248]
+    249,[1249]
+    250,[1250]
+    251,[1251]
+    252,[1252]
+    253,[1253]
+    254,[1254]
+    255,[1255]
+    256,[1256]
+    257,[1257]
+    258,[1258]
+    259,[1259]
+    260,[1260]
+    261,[1261]
+    262,[1262]
+    263,[1263]
+    264,[1264]
+    265,[1265]
+    266,[1266]
+    267,[1267]
+    268,[1268]
+    269,[1269]
+    270,[1270]
+    271,[1271]
+    272,[1272]
+    273,[1273]
+    274,[1274]
+    275,[1275]
+    276,[1276]
+    277,[1277]
+    278,[1278]
+    279,[1279]
+    280,[1280]
+    281,[1281]
+    282,[1282]
+    283,[1283]
+    284,[1284]
+    285,[1285]
+    286,[1286]
+    287,[1287]
+    288,[1288]
+    289,[1289]
+    290,[1290]
+    291,[1291]
+    292,[1292]
+}
+
+kero.surface.alias
+{
+    10,[2000]
+    400,[2000]
+    411,[2011]
+    412,[2012]
+    413,[2013]
+    414,[2014]
+    415,[2015]
+    416,[2016]
+    417,[2017]
+    418,[2018]
+    419,[2019]
+    420,[2020]
+    421,[2021]
+    430,[2030]
+    431,[2031]
+    432,[2032]
+    433,[2033]
+    434,[2034]
+    435,[2035]
+    436,[2036]
+    437,[2037]
+    438,[2038]
+    439,[2039]
+    440,[2040]
+    441,[2041]
+    450,[2050]
+    451,[2051]
+    455,[2055]
+    456,[2056]
+    460,[2060]
+    461,[2061]
+    462,[2062]
+    463,[2063]
+    464,[2064]
+    465,[2065]
+    466,[2066]
+    470,[2070]
+    471,[2071]
+    472,[2072]
+    473,[2073]
+    474,[2074]
+    475,[2075]
+    476,[2076]
+    480,[2080]
+    481,[2081]
+    482,[2082]
+    483,[2083]
+    485,[2085]
+    486,[2086]
+    487,[2087]
+    488,[2088]
+}
+
+
+
+//â– ãƒªãƒˆãƒ«ãƒŸã‚¹
 
 surface1000
 {
@@ -1521,7 +1782,7 @@ surface1269
 }
 
 
-”ˆÈ‰º•a‚İ–ÚƒT[ƒtƒFƒX
+ï¼ƒä»¥ä¸‹ç—…ã¿ç›®ã‚µãƒ¼ãƒ•ã‚§ã‚¹
 
 
 surface1270
@@ -1731,11 +1992,11 @@ surface.append1000
 
 
 
-//¡OH’cq
+//â– ä¸‰é£Ÿå›£å­
 
 surface2000
 {
-//•’Ê
+//æ™®é€š
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2111.png,0,0
     element2,overlay,surface2121.png,0,0
@@ -1744,7 +2005,7 @@ surface2000
 
 surface2011
 {
-//¢‚è
+//å›°ã‚Š
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2112.png,0,0
     element2,overlay,surface2121.png,0,0
@@ -1753,7 +2014,7 @@ surface2011
 
 surface2012
 {
-//“{‚è
+//æ€’ã‚Š
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2113.png,0,0
     element2,overlay,surface2121.png,0,0
@@ -1762,7 +2023,7 @@ surface2012
 
 surface2013
 {
-//Î‚İ
+//ç¬‘ã¿
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2111.png,0,0
     element2,overlay,surface2121.png,0,0
@@ -1771,7 +2032,7 @@ surface2013
 
 surface2014
 {
-//‹Á‚«
+//é©šã
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2114.png,0,0
     element2,overlay,surface2121.png,0,0
@@ -1780,7 +2041,7 @@ surface2014
 
 surface2015
 {
-//ƒWƒg–Ú
+//ã‚¸ãƒˆç›®
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2111.png,0,0
     element2,overlay,surface2122.png,0,0
@@ -1789,7 +2050,7 @@ surface2015
 
 surface2016
 {
-//–Ú•Â‚¶
+//ç›®é–‰ã˜
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2111.png,0,0
     element2,overlay,surface2123.png,0,0
@@ -1798,7 +2059,7 @@ surface2016
 
 surface2017
 {
-//–Ú•Â‚¶¢‚è
+//ç›®é–‰ã˜å›°ã‚Š
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2112.png,0,0
     element2,overlay,surface2123.png,0,0
@@ -1807,7 +2068,7 @@ surface2017
 
 surface2018
 {
-//–Ú•Â‚¶Î‚İ
+//ç›®é–‰ã˜ç¬‘ã¿
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2111.png,0,0
     element2,overlay,surface2123.png,0,0
@@ -1816,7 +2077,7 @@ surface2018
 
 surface2019
 {
-//Î‚¢
+//ç¬‘ã„
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2111.png,0,0
     element2,overlay,surface2124.png,0,0
@@ -1825,7 +2086,7 @@ surface2019
 
 surface2020
 {
-//‚Û‚©‚ñ
+//ã½ã‹ã‚“
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2111.png,0,0
     element2,overlay,surface2125.png,0,0
@@ -1834,7 +2095,7 @@ surface2020
 
 surface2021
 {
-//–_–Ú
+//æ£’ç›®
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2112.png,0,0
     element2,overlay,surface2126.png,0,0
@@ -1844,7 +2105,7 @@ surface2021
 
 surface2030
 {
-//0”Ô+Æ‚ê
+//0ç•ª+ç…§ã‚Œ
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2111.png,0,0
     element2,overlay,surface2131.png,0,0
@@ -1853,7 +2114,7 @@ surface2030
 
 surface2031
 {
-//11”Ô+Æ‚ê
+//11ç•ª+ç…§ã‚Œ
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2112.png,0,0
     element2,overlay,surface2131.png,0,0
@@ -1862,7 +2123,7 @@ surface2031
 
 surface2032
 {
-//12”Ô+Æ‚ê
+//12ç•ª+ç…§ã‚Œ
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2113.png,0,0
     element2,overlay,surface2131.png,0,0
@@ -1871,7 +2132,7 @@ surface2032
 
 surface2033
 {
-//13”Ô+Æ‚ê
+//13ç•ª+ç…§ã‚Œ
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2111.png,0,0
     element2,overlay,surface2131.png,0,0
@@ -1880,7 +2141,7 @@ surface2033
 
 surface2034
 {
-//14”Ô+Æ‚ê
+//14ç•ª+ç…§ã‚Œ
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2114.png,0,0
     element2,overlay,surface2131.png,0,0
@@ -1889,7 +2150,7 @@ surface2034
 
 surface2035
 {
-//15”Ô+Æ‚ê
+//15ç•ª+ç…§ã‚Œ
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2111.png,0,0
     element2,overlay,surface2132.png,0,0
@@ -1898,7 +2159,7 @@ surface2035
 
 surface2036
 {
-//16”Ô+Æ‚ê
+//16ç•ª+ç…§ã‚Œ
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2111.png,0,0
     element2,overlay,surface2133.png,0,0
@@ -1907,7 +2168,7 @@ surface2036
 
 surface2037
 {
-//17”Ô+Æ‚ê
+//17ç•ª+ç…§ã‚Œ
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2112.png,0,0
     element2,overlay,surface2133.png,0,0
@@ -1916,7 +2177,7 @@ surface2037
 
 surface2038
 {
-//18”Ô+Æ‚ê
+//18ç•ª+ç…§ã‚Œ
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2111.png,0,0
     element2,overlay,surface2133.png,0,0
@@ -1925,7 +2186,7 @@ surface2038
 
 surface2039
 {
-//19”Ô+Æ‚ê
+//19ç•ª+ç…§ã‚Œ
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2111.png,0,0
     element2,overlay,surface2134.png,0,0
@@ -1934,7 +2195,7 @@ surface2039
 
 surface2040
 {
-//20”Ô+Æ‚ê
+//20ç•ª+ç…§ã‚Œ
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2111.png,0,0
     element2,overlay,surface2135.png,0,0
@@ -1943,7 +2204,7 @@ surface2040
 
 surface2041
 {
-//21”Ô+Æ‚ê
+//21ç•ª+ç…§ã‚Œ
     element0,overlay,surface2000.png,0,0
     element1,overlay,surface2112.png,0,0
     element2,overlay,surface2136.png,0,0
@@ -1953,7 +2214,7 @@ surface2041
 
 surface2050
 {
-//‚â‚ê‚â‚ê
+//ã‚„ã‚Œã‚„ã‚Œ
     element0,overlay,surface2001.png,0,0
     element1,overlay,surface2112.png,0,0
     element2,overlay,surface2123.png,0,0
@@ -1962,7 +2223,7 @@ surface2050
 
 surface2051
 {
-//•ğ‚ê
+//å‘†ã‚Œ
     element0,overlay,surface2001.png,0,0
     element1,overlay,surface2112.png,0,0
     element2,overlay,surface2123.png,0,0
@@ -1971,7 +2232,7 @@ surface2051
 
 surface2055
 {
-//50”Ô+Æ‚ê
+//50ç•ª+ç…§ã‚Œ
     element0,overlay,surface2001.png,0,0
     element1,overlay,surface2112.png,0,0
     element2,overlay,surface2133.png,0,0
@@ -1980,7 +2241,7 @@ surface2055
 
 surface2056
 {
-//51”Ô+Æ‚ê
+//51ç•ª+ç…§ã‚Œ
     element0,overlay,surface2001.png,0,0
     element1,overlay,surface2112.png,0,0
     element2,overlay,surface2133.png,0,0
@@ -1989,7 +2250,7 @@ surface2056
 
 surface2060
 {
-//˜r‘g‚İ
+//è…•çµ„ã¿
     element0,overlay,surface2002.png,0,0
     element1,overlay,surface2211.png,0,0
     element2,overlay,surface2221.png,0,0
@@ -1998,7 +2259,7 @@ surface2060
 
 surface2061
 {
-//˜r‘g‚İ¢‚è
+//è…•çµ„ã¿å›°ã‚Š
     element0,overlay,surface2002.png,0,0
     element1,overlay,surface2212.png,0,0
     element2,overlay,surface2221.png,0,0
@@ -2007,7 +2268,7 @@ surface2061
 
 surface2062
 {
-//˜r‚­‚İ“{‚è
+//è…•ãã¿æ€’ã‚Š
     element0,overlay,surface2002.png,0,0
     element1,overlay,surface2213.png,0,0
     element2,overlay,surface2221.png,0,0
@@ -2016,7 +2277,7 @@ surface2062
 
 surface2063
 {
-//˜r‘g‚İ•Ğ–Ú
+//è…•çµ„ã¿ç‰‡ç›®
     element0,overlay,surface2002.png,0,0
     element1,overlay,surface2211.png,0,0
     element2,overlay,surface2222.png,0,0
@@ -2025,7 +2286,7 @@ surface2063
 
 surface2064
 {
-//˜r‘g‚İ–Ú•Â‚¶
+//è…•çµ„ã¿ç›®é–‰ã˜
     element0,overlay,surface2002.png,0,0
     element1,overlay,surface2211.png,0,0
     element2,overlay,surface2223.png,0,0
@@ -2034,7 +2295,7 @@ surface2064
 
 surface2065
 {
-//˜r‘g‚İ”Y‚İ
+//è…•çµ„ã¿æ‚©ã¿
     element0,overlay,surface2002.png,0,0
     element1,overlay,surface2212.png,0,0
     element2,overlay,surface2223.png,0,0
@@ -2043,7 +2304,7 @@ surface2065
 
 surface2066
 {
-//˜r‘g‚İl‚¦–
+//è…•çµ„ã¿è€ƒãˆäº‹
     element0,overlay,surface2002.png,0,0
     element1,overlay,surface2213.png,0,0
     element2,overlay,surface2223.png,0,0
@@ -2052,7 +2313,7 @@ surface2066
 
 surface2070
 {
-//60”Ô+Æ‚ê
+//60ç•ª+ç…§ã‚Œ
     element0,overlay,surface2002.png,0,0
     element1,overlay,surface2211.png,0,0
     element2,overlay,surface2231.png,0,0
@@ -2061,7 +2322,7 @@ surface2070
 
 surface2071
 {
-//61”Ô+Æ‚ê
+//61ç•ª+ç…§ã‚Œ
     element0,overlay,surface2002.png,0,0
     element1,overlay,surface2212.png,0,0
     element2,overlay,surface2231.png,0,0
@@ -2070,7 +2331,7 @@ surface2071
 
 surface2072
 {
-//62”Ô+Æ‚ê
+//62ç•ª+ç…§ã‚Œ
     element0,overlay,surface2002.png,0,0
     element1,overlay,surface2213.png,0,0
     element2,overlay,surface2231.png,0,0
@@ -2079,7 +2340,7 @@ surface2072
 
 surface2073
 {
-//63”Ô+Æ‚ê
+//63ç•ª+ç…§ã‚Œ
     element0,overlay,surface2002.png,0,0
     element1,overlay,surface2211.png,0,0
     element2,overlay,surface2232.png,0,0
@@ -2088,7 +2349,7 @@ surface2073
 
 surface2074
 {
-//64”Ô+Æ‚ê
+//64ç•ª+ç…§ã‚Œ
     element0,overlay,surface2002.png,0,0
     element1,overlay,surface2211.png,0,0
     element2,overlay,surface2233.png,0,0
@@ -2097,7 +2358,7 @@ surface2074
 
 surface2075
 {
-//65”Ô+Æ‚ê
+//65ç•ª+ç…§ã‚Œ
     element0,overlay,surface2002.png,0,0
     element1,overlay,surface2212.png,0,0
     element2,overlay,surface2233.png,0,0
@@ -2106,7 +2367,7 @@ surface2075
 
 surface2076
 {
-//66”Ô+Æ‚ê
+//66ç•ª+ç…§ã‚Œ
     element0,overlay,surface2002.png,0,0
     element1,overlay,surface2213.png,0,0
     element2,overlay,surface2233.png,0,0
@@ -2115,7 +2376,7 @@ surface2076
 
 surface2080
 {
-//•sˆÀ
+//ä¸å®‰
     element0,overlay,surface2003.png,0,0
     element1,overlay,surface2312.png,0,0
     element2,overlay,surface2321.png,0,0
@@ -2124,7 +2385,7 @@ surface2080
 
 surface2081
 {
-//‹‘â
+//æ‹’çµ¶
     element0,overlay,surface2003.png,0,0
     element1,overlay,surface2313.png,0,0
     element2,overlay,surface2321.png,0,0
@@ -2133,7 +2394,7 @@ surface2081
 
 surface2082
 {
-//áÒ‘z
+//ç‘æƒ³
     element0,overlay,surface2003.png,0,0
     element1,overlay,surface2311.png,0,0
     element2,overlay,surface2322.png,0,0
@@ -2142,7 +2403,7 @@ surface2082
 
 surface2083
 {
-//S’É
+//å¿ƒç—›
     element0,overlay,surface2003.png,0,0
     element1,overlay,surface2312.png,0,0
     element2,overlay,surface2322.png,0,0
@@ -2151,7 +2412,7 @@ surface2083
 
 surface2085
 {
-//80”Ô+Æ‚ê
+//80ç•ª+ç…§ã‚Œ
     element0,overlay,surface2003.png,0,0
     element1,overlay,surface2312.png,0,0
     element2,overlay,surface2331.png,0,0
@@ -2160,7 +2421,7 @@ surface2085
 
 surface2086
 {
-//81”Ô+Æ‚ê
+//81ç•ª+ç…§ã‚Œ
     element0,overlay,surface2003.png,0,0
     element1,overlay,surface2313.png,0,0
     element2,overlay,surface2331.png,0,0
@@ -2169,7 +2430,7 @@ surface2086
 
 surface2087
 {
-//82”Ô+Æ‚ê
+//82ç•ª+ç…§ã‚Œ
     element0,overlay,surface2003.png,0,0
     element1,overlay,surface2311.png,0,0
     element2,overlay,surface2332.png,0,0
@@ -2178,7 +2439,7 @@ surface2087
 
 surface2088
 {
-//83”Ô+Æ‚ê
+//83ç•ª+ç…§ã‚Œ
     element0,overlay,surface2003.png,0,0
     element1,overlay,surface2312.png,0,0
     element2,overlay,surface2332.png,0,0
@@ -2186,11 +2447,11 @@ surface2088
 }
 
 //------------------------------------------------
-//u‚«+ŒûƒpƒN
+//ç¬ã+å£ãƒ‘ã‚¯
 
 surface.append2000,2011-2015
 {
-//u‚«1
+//ç¬ã1
     animation0.interval,random,10
     animation0.pattern0,overlay,123,0,0,0
     animation0.pattern1,overlay,-1,100,0,0
@@ -2198,7 +2459,7 @@ surface.append2000,2011-2015
 
 surface.append2030-2035
 {
-//u‚«1+Æ‚ê
+//ç¬ã1+ç…§ã‚Œ
     animation0.interval,random,10
     animation0.pattern0,overlay,133,0,0,0
     animation0.pattern1,overlay,-1,100,0,0
@@ -2206,7 +2467,7 @@ surface.append2030-2035
 
 surface.append2060-2062
 {
-//u‚«3
+//ç¬ã3
     animation0.interval,random,10
     animation0.pattern0,overlay,223,0,0,0
     animation0.pattern1,overlay,-1,100,0,0
@@ -2214,7 +2475,7 @@ surface.append2060-2062
 
 surface.append2070-2072
 {
-//u‚«3+Æ‚ê
+//ç¬ã3+ç…§ã‚Œ
     animation0.interval,random,10
     animation0.pattern0,overlay,233,0,0,0
     animation0.pattern1,overlay,-1,100,0,0
@@ -2222,7 +2483,7 @@ surface.append2070-2072
 
 surface.append2080,2081
 {
-//u‚«4
+//ç¬ã4
     animation0.interval,random,10
     animation0.pattern0,overlay,322,0,0,0
     animation0.pattern1,overlay,-1,100,0,0
@@ -2231,7 +2492,7 @@ surface.append2080,2081
 
 surface.append2085,2086
 {
-//u‚«4+Æ‚ê
+//ç¬ã4+ç…§ã‚Œ
     animation0.interval,random,10
     animation0.pattern0,overlay,332,0,0,0
     animation0.pattern1,overlay,-1,100,0,0
@@ -2241,7 +2502,7 @@ surface.append2085,2086
 
 surface.append2000,2011,2012,2014-2017,2020,2021,2030-2032,2034-2037,2040,2041,2050,2055
 {
-    2•’Ê
+    2æ™®é€š
     animation1.interval,talk,5
     animation1.pattern0,overlay,143,0,0,0
     animation1.pattern1,overlay,-1,100,0,0
@@ -2251,7 +2512,7 @@ surface.append2000,2011,2012,2014-2017,2020,2021,2030-2032,2034-2037,2040,2041,2
 
 surface.append2013,2018,2019,2033,2038,2039,2051,2056
 {
-    2Î‚¢
+    2ç¬‘ã„
     animation1.interval,talk,5
     animation1.pattern0,overlay,146,0,0,0
     animation1.pattern1,overlay,-1,100,0,0
@@ -2261,7 +2522,7 @@ surface.append2013,2018,2019,2033,2038,2039,2051,2056
 
 surface.append2060-2066,2070-2076
 {
-//ŒûƒpƒN3
+//å£ãƒ‘ã‚¯3
     animation1.interval,talk,5
     animation1.pattern0,overlay,242,0,0,0
     animation1.pattern1,overlay,-1,100,0,0
@@ -2271,7 +2532,7 @@ surface.append2060-2066,2070-2076
 
 surface.append2080-2083,2085-2088
 {
-//ŒûƒpƒN4
+//å£ãƒ‘ã‚¯4
     animation1.interval,talk,5
     animation1.pattern0,overlay,342,0,0,0
     animation1.pattern1,overlay,-1,100,0,0
@@ -2280,7 +2541,7 @@ surface.append2080-2083,2085-2088
 }
 
 //------------------------------------------------
-//‚³‚í‚è”»’è
+//ã•ã‚ã‚Šåˆ¤å®š
 
 surface.append2000-2011-2021,2030-2041
 {
