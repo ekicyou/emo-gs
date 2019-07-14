@@ -10,3 +10,5 @@ Cargo.lock
 **/*.rs.bk
 *.bak
 profile
+satori_savebackup.txt
+/satori/emo/ghost/master/satori_savedata.txt
