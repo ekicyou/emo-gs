@@ -4,7 +4,7 @@ craftman,
 craftmanw,
 craftmanurl,
 
-name,ゴーストキット改良版Plus（さとりすと用）
+name,サーフェス試験用ゴースト
 type,ghost
 
 sakura.name,ちぇっか
