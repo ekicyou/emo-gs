@@ -1,0 +1,13 @@
+charset,UTF-8
+
+craftman,
+craftmanw,
+craftmanurl,
+
+name,えも？
+type,ghost
+
+sakura.name,えっちゃん
+kero.name,エモ
+
+shiori,emo.dll
