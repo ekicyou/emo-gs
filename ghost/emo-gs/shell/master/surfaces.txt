@@ -2502,7 +2502,7 @@ surface.append2085,2086
 
 surface.append2000,2011,2012,2014-2017,2020,2021,2030-2032,2034-2037,2040,2041,2050,2055
 {
-    2普通
+//口パク1-2普通
     animation1.interval,talk,5
     animation1.pattern0,overlay,143,0,0,0
     animation1.pattern1,overlay,-1,100,0,0
@@ -2512,7 +2512,7 @@ surface.append2000,2011,2012,2014-2017,2020,2021,2030-2032,2034-2037,2040,2041,2
 
 surface.append2013,2018,2019,2033,2038,2039,2051,2056
 {
-    2笑い
+//口パク1-2笑い
     animation1.interval,talk,5
     animation1.pattern0,overlay,146,0,0,0
     animation1.pattern1,overlay,-1,100,0,0
