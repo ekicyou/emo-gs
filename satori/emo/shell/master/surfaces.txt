@@ -264,6 +264,21 @@ kero.surface.alias
     488,[2088]
 }
 
+// \s0, \s10
+surface0
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1300.png,0,0
+}
+surface10
+{
+//•’Ê
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2121.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
 
 
 //¡ƒŠƒgƒ‹ƒ~ƒX
@@ -1980,14 +1995,14 @@ surface1292
 
 //=============================================================
 
-surface.append1000
+surface.append0,1000
 {
     animation0.interval,always
-    animation0.pattern0,overlay,100,0,0,0
-    animation0.pattern1,overlay,101,1000-3000,0,0
-    animation0.pattern2,overlay,3,50,0,0
-    animation0.pattern3,overlay,101,50,0,0
-    animation0.pattern4,overlay,100,50,0,0
+    animation0.pattern0,overlay,1100,0,0,0
+    animation0.pattern1,overlay,1101,1000-3000,0,0
+    animation0.pattern2,overlay,1003,50,0,0
+    animation0.pattern3,overlay,1101,50,0,0
+    animation0.pattern4,overlay,1100,50,0,0
 }
 
 
@@ -2449,11 +2464,11 @@ surface2088
 //------------------------------------------------
 //u‚«+ŒûƒpƒN
 
-surface.append2000,2011-2015
+surface.append10,2000,2011-2015
 {
 //u‚«1
     animation0.interval,random,10
-    animation0.pattern0,overlay,123,0,0,0
+    animation0.pattern0,overlay,2123,0,0,0
     animation0.pattern1,overlay,-1,100,0,0
 }
 
@@ -2461,7 +2476,7 @@ surface.append2030-2035
 {
 //u‚«1+Æ‚ê
     animation0.interval,random,10
-    animation0.pattern0,overlay,133,0,0,0
+    animation0.pattern0,overlay,2133,0,0,0
     animation0.pattern1,overlay,-1,100,0,0
 }
 
@@ -2469,7 +2484,7 @@ surface.append2060-2062
 {
 //u‚«3
     animation0.interval,random,10
-    animation0.pattern0,overlay,223,0,0,0
+    animation0.pattern0,overlay,2223,0,0,0
     animation0.pattern1,overlay,-1,100,0,0
 }
 
@@ -2477,7 +2492,7 @@ surface.append2070-2072
 {
 //u‚«3+Æ‚ê
     animation0.interval,random,10
-    animation0.pattern0,overlay,233,0,0,0
+    animation0.pattern0,overlay,2233,0,0,0
     animation0.pattern1,overlay,-1,100,0,0
 }
 
@@ -2485,7 +2500,7 @@ surface.append2080,2081
 {
 //u‚«4
     animation0.interval,random,10
-    animation0.pattern0,overlay,322,0,0,0
+    animation0.pattern0,overlay,2322,0,0,0
     animation0.pattern1,overlay,-1,100,0,0
 }
 
@@ -2494,19 +2509,19 @@ surface.append2085,2086
 {
 //u‚«4+Æ‚ê
     animation0.interval,random,10
-    animation0.pattern0,overlay,332,0,0,0
+    animation0.pattern0,overlay,2332,0,0,0
     animation0.pattern1,overlay,-1,100,0,0
 }
 
 
 
-surface.append2000,2011,2012,2014-2017,2020,2021,2030-2032,2034-2037,2040,2041,2050,2055
+surface.append10,2000,2011,2012,2014-2017,2020,2021,2030-2032,2034-2037,2040,2041,2050,2055
 {
 //ŒûƒpƒN1-2•’Ê
     animation1.interval,talk,5
-    animation1.pattern0,overlay,143,0,0,0
+    animation1.pattern0,overlay,2143,0,0,0
     animation1.pattern1,overlay,-1,100,0,0
-    animation1.pattern2,overlay,143,100,0,0
+    animation1.pattern2,overlay,2143,100,0,0
     animation1.pattern3,overlay,-1,100,0,0
 }
 
@@ -2514,9 +2529,9 @@ surface.append2013,2018,2019,2033,2038,2039,2051,2056
 {
 //ŒûƒpƒN1-2Î‚¢
     animation1.interval,talk,5
-    animation1.pattern0,overlay,146,0,0,0
+    animation1.pattern0,overlay,2146,0,0,0
     animation1.pattern1,overlay,-1,100,0,0
-    animation1.pattern2,overlay,146,100,0,0
+    animation1.pattern2,overlay,2146,100,0,0
     animation1.pattern3,overlay,-1,100,0,0
 }
 
@@ -2524,9 +2539,9 @@ surface.append2060-2066,2070-2076
 {
 //ŒûƒpƒN3
     animation1.interval,talk,5
-    animation1.pattern0,overlay,242,0,0,0
+    animation1.pattern0,overlay,2242,0,0,0
     animation1.pattern1,overlay,-1,100,0,0
-    animation1.pattern2,overlay,242,100,0,0
+    animation1.pattern2,overlay,2242,100,0,0
     animation1.pattern3,overlay,-1,100,0,0
 }
 
@@ -2534,16 +2549,16 @@ surface.append2080-2083,2085-2088
 {
 //ŒûƒpƒN4
     animation1.interval,talk,5
-    animation1.pattern0,overlay,342,0,0,0
+    animation1.pattern0,overlay,2342,0,0,0
     animation1.pattern1,overlay,-1,100,0,0
-    animation1.pattern2,overlay,342,100,0,0
+    animation1.pattern2,overlay,2342,100,0,0
     animation1.pattern3,overlay,-1,100,0,0
 }
 
 //------------------------------------------------
 //‚³‚í‚è”»’è
 
-surface.append2000-2011-2021,2030-2041
+surface.append10,2000-2011-2021,2030-2041
 {
     collisionex0,Head,polygon,112,28,93,10,59,9,42,26,59,47,105,45
     collisionex1,Ear,polygon,53,41,29,26,29,45,46,57
