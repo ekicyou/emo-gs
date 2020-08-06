@@ -1,0 +1,4 @@
+charset,Shift_JIS
+type,shell
+name,コンフィズリー
+seriko.use_self_alpha,1
