@@ -1,5 +1,5 @@
-windowposition.x,360
-windowposition.y,-150
+windowposition.x,434
+windowposition.y,-75
 
 validrect.top,40
 validrect.bottom,-70

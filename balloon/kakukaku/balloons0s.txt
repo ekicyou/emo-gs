@@ -1,5 +1,5 @@
-windowposition.x,160
-windowposition.y,-170
+windowposition.x,266
+windowposition.y,-129
 
 wordwrappoint.x,-49
 
