@@ -1,4 +1,4 @@
 charset,Shift_JIS
 type,shell
-name,コンフィズリー
+name,「コンフィズリー」＆「City-Pop'n」
 seriko.use_self_alpha,1
