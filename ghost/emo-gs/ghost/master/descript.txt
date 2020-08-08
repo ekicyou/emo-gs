@@ -1,8 +1,8 @@
 charset,UTF-8
 
-craftman,
-craftmanw,
-craftmanurl,
+craftman,ekicyou
+craftmanw,えちょ
+craftmanurl,https://ekicyou.github.io/
 
 name,えも？
 type,ghost
