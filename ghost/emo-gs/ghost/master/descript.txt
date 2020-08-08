@@ -7,7 +7,7 @@ craftmanurl,
 name,えも？
 type,ghost
 
-sakura.name,えっちゃん
+sakura.name,むらさき
 kero.name,エモ
 
 shiori,emo.dll

@@ -16,6 +16,7 @@ local env ={
     security_level= "local",
     CRLF=           CRLF,
     SPLIT=          SPLIT,
+    time_ok=        0,
 }
 
 local function join(...)
@@ -59,7 +60,9 @@ local function build(code, dic)
 end
 
 -- 200 OK           正常に終了し、会話がある
+--                  env.time_ok に最終送信時刻を保存
 local function ok(value, dic)
+    env.time_ok = os.time() 
     if not dic then dic={}
     end
     dic["Value"] = value

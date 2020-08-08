@@ -35,6 +35,7 @@ local req = {
     security_level = { SecurityLevel: "local" }
     sender  = { Sender: ? }
     status  = { Status: ? }
+    status_dic = (statusをdict分解)
     id      = { ID: ? }
     base_id = { BaseID: ? }
     reference ={
@@ -49,3 +50,15 @@ local req = {
 local res = shiori.request(req)
 -- resはUTF-8フォーマットの応答文字列
 ```
+
+## 環境データ構造
+
+`EV:OnBoot(data, req)`など、
+イベント関数に渡される`data`オブジェクトの構造。
+
+```lua
+local data = {env={}, save={}}
+```
+
+envは実行中に保存するデータ、
+saveはSHIORI終了時に保存されるデータ。
