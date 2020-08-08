@@ -13,7 +13,7 @@ function EV:OnSecondChange(data, req)
         data.save.time_talking = now
     elseif now - data.save.time_talking >= wait_sec then
         data.save.time_talk_normal = now
-        local value = [=[\1\s[100]\0\s[0]通常トークです。\w9\1\s[100]ネタはないの？\e]=]
+        local value = [=[\1\s[10]\0\s[0]いつものお話やで。\w9\w9\1\s[10]ネタはないの？\w9\w9\e]=]
         return response.ok(value)
     end
     return self:no_entry(data, req)
@@ -27,19 +27,19 @@ end
 
 --起動トーク
 function EV:OnBoot(data, req)
-    local value = [=[\1\s[100]\0\s[0]OnBoot:起動トークです。\w9\1\s[100]起動したよ。\e]=]
+    local value = [=[\1\s[10]\0\s[5]OnBoot:起動トークや！\_w[600]\1\s[10]や、\9お久しぶり。\w9\w9\e]=]
     return response.ok(value)
 end
 
 --クリック
 function EV:OnMouseDoubleClick(data, req)
-    local value = [=[\1\![move,-353,,,0,base,base]\s[100]\0\s[0]OnMouseDoubleClick:ダブルクリックです。\w9\1\s[100]あいたたた？\e]=]
+    local value = [=[\1\![move,-353,,,0,base,base]\s[100]\0\s[0]\_qOnMouseDoubleClick\n\_qおや、\_w[400]ダブルクリックされたよ。\_w[600]\1\s[100]あいたたた？\w9\w9\e]=]
     return response.ok(value)
 end
 
 --バルーン切り替え
 function EV:OnBalloonChange(data, req)
-    local value = [=[\1\s[100]\0\s[0]OnBalloonChange:バルーン切り替えです。\w9\1\s[100]ばるるるるん？\e]=]
+    local value = [=[\1\s[100]\0\s[0]\_qOnBalloonChange\n\_qバルーン切り替えです。\w9\w9\1\s[100]ばるるるるん？\w9\w9\e]=]
     return response.ok(value)
 end
 
