@@ -1,11 +1,11 @@
 charset,UTF-8
 
 type,ghost
+id.emo-gs
 name,えも？
 sakura.name,むらさき
 kero.name,エモ
-
-id.emo
+homeurl,https://raw.githubusercontent.com/ekicyou/emo-gs/stable/ghost/emo-gs/
 
 craftman,ekicyou
 craftmanw,えちょ
