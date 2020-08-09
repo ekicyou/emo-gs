@@ -1,4 +1,4 @@
 charset,Shift_JIS
 type,balloon
-name,Balloon for Emily/P4
-directory,emily4
+name,kakukaku for emo-gs
+directory,emo-kakukaku
