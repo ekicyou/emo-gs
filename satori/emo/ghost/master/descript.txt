@@ -1,0 +1,13 @@
+charset,Shift_JIS
+
+craftman,
+craftmanw,
+craftmanurl,
+
+name,サーフェス試験用ゴースト
+type,ghost
+
+sakura.name,ちぇっか
+kero.name,てすた
+
+shiori,satori.dll

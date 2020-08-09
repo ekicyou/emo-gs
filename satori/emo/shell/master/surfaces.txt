@@ -1,0 +1,2602 @@
+charset,Shift_JIS
+descript
+{
+version,1
+}
+
+sakura.cursor
+{
+	mouseup0,Head,system:hand
+	mousedown0,Head,system:finger
+	mouseup1,Hair,system:hand
+	mousedown1,Hair,system:finger
+
+}
+
+sakura.surface.alias
+{
+    0,[1000]
+    100,[1000]
+    103,[1103]
+    104,[1104]
+    105,[1105]
+    106,[1106]
+    107,[1107]
+    108,[1108]
+    109,[1109]
+    110,[1110]
+    111,[1111]
+    112,[1112]
+    113,[1113]
+    114,[1114]
+    115,[1115]
+    116,[1116]
+    117,[1117]
+    118,[1118]
+    119,[1119]
+    120,[1120]
+    121,[1121]
+    122,[1122]
+    123,[1123]
+    124,[1124]
+    125,[1125]
+    126,[1126]
+    127,[1127]
+    128,[1128]
+    129,[1129]
+    130,[1130]
+    131,[1131]
+    132,[1132]
+    133,[1133]
+    134,[1134]
+    135,[1135]
+    136,[1136]
+    137,[1137]
+    138,[1138]
+    139,[1139]
+    140,[1140]
+    141,[1141]
+    142,[1142]
+    143,[1143]
+    144,[1144]
+    145,[1145]
+    146,[1146]
+    147,[1147]
+    148,[1148]
+    149,[1149]
+    150,[1150]
+    151,[1151]
+    152,[1152]
+    153,[1153]
+    154,[1154]
+    155,[1155]
+    156,[1156]
+    157,[1157]
+    158,[1158]
+    159,[1159]
+    160,[1160]
+    161,[1161]
+    162,[1162]
+    163,[1163]
+    164,[1164]
+    165,[1165]
+    166,[1166]
+    167,[1167]
+    168,[1168]
+    169,[1169]
+    170,[1170]
+    171,[1171]
+    172,[1172]
+    173,[1173]
+    174,[1174]
+    175,[1175]
+    176,[1176]
+    177,[1177]
+    178,[1178]
+    179,[1179]
+    180,[1180]
+    181,[1181]
+    182,[1182]
+    183,[1183]
+    184,[1184]
+    185,[1185]
+    186,[1186]
+    187,[1187]
+    188,[1188]
+    189,[1189]
+    190,[1190]
+    191,[1191]
+    192,[1192]
+    193,[1193]
+    194,[1194]
+    195,[1195]
+    196,[1196]
+    197,[1197]
+    198,[1198]
+    199,[1199]
+    200,[1200]
+    201,[1201]
+    202,[1202]
+    203,[1203]
+    204,[1204]
+    205,[1205]
+    206,[1206]
+    207,[1207]
+    208,[1208]
+    209,[1209]
+    210,[1210]
+    211,[1211]
+    212,[1212]
+    213,[1213]
+    214,[1214]
+    215,[1215]
+    216,[1216]
+    217,[1217]
+    218,[1218]
+    219,[1219]
+    220,[1220]
+    221,[1221]
+    222,[1222]
+    223,[1223]
+    224,[1224]
+    225,[1225]
+    226,[1226]
+    227,[1227]
+    228,[1228]
+    229,[1229]
+    230,[1230]
+    231,[1231]
+    232,[1232]
+    233,[1233]
+    234,[1234]
+    235,[1235]
+    236,[1236]
+    237,[1237]
+    238,[1238]
+    239,[1239]
+    240,[1240]
+    241,[1241]
+    242,[1242]
+    243,[1243]
+    244,[1244]
+    245,[1245]
+    246,[1246]
+    247,[1247]
+    248,[1248]
+    249,[1249]
+    250,[1250]
+    251,[1251]
+    252,[1252]
+    253,[1253]
+    254,[1254]
+    255,[1255]
+    256,[1256]
+    257,[1257]
+    258,[1258]
+    259,[1259]
+    260,[1260]
+    261,[1261]
+    262,[1262]
+    263,[1263]
+    264,[1264]
+    265,[1265]
+    266,[1266]
+    267,[1267]
+    268,[1268]
+    269,[1269]
+    270,[1270]
+    271,[1271]
+    272,[1272]
+    273,[1273]
+    274,[1274]
+    275,[1275]
+    276,[1276]
+    277,[1277]
+    278,[1278]
+    279,[1279]
+    280,[1280]
+    281,[1281]
+    282,[1282]
+    283,[1283]
+    284,[1284]
+    285,[1285]
+    286,[1286]
+    287,[1287]
+    288,[1288]
+    289,[1289]
+    290,[1290]
+    291,[1291]
+    292,[1292]
+}
+
+kero.surface.alias
+{
+    10,[2000]
+    400,[2000]
+    411,[2011]
+    412,[2012]
+    413,[2013]
+    414,[2014]
+    415,[2015]
+    416,[2016]
+    417,[2017]
+    418,[2018]
+    419,[2019]
+    420,[2020]
+    421,[2021]
+    430,[2030]
+    431,[2031]
+    432,[2032]
+    433,[2033]
+    434,[2034]
+    435,[2035]
+    436,[2036]
+    437,[2037]
+    438,[2038]
+    439,[2039]
+    440,[2040]
+    441,[2041]
+    450,[2050]
+    451,[2051]
+    455,[2055]
+    456,[2056]
+    460,[2060]
+    461,[2061]
+    462,[2062]
+    463,[2063]
+    464,[2064]
+    465,[2065]
+    466,[2066]
+    470,[2070]
+    471,[2071]
+    472,[2072]
+    473,[2073]
+    474,[2074]
+    475,[2075]
+    476,[2076]
+    480,[2080]
+    481,[2081]
+    482,[2082]
+    483,[2083]
+    485,[2085]
+    486,[2086]
+    487,[2087]
+    488,[2088]
+}
+
+// \s0, \s10
+surface0
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1300.png,0,0
+}
+surface10
+{
+//ïÅí 
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2121.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+
+//Å°ÉäÉgÉãÉ~ÉX
+
+surface1000
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1300.png,0,0
+}
+
+surface1010
+{
+}
+
+
+surface1103
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+
+surface1104
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1105
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1105.png,0,0
+}
+
+
+surface1106
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1107
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1108.png,0,0
+}
+
+
+surface1108
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+
+surface1109
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1004.png,0,0
+}
+
+
+surface1110
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+surface1111
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+
+surface1112
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1113
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1105.png,0,0
+}
+
+
+surface1114
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1115
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1108.png,0,0
+}
+
+
+surface1116
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+surface1117
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+
+surface1118
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+surface1119
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1120
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1121
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1108.png,0,0
+}
+
+
+surface1122
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+
+surface1123
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+surface1124
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+surface1125
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1126
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1127
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1108.png,0,0
+}
+
+
+surface1128
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+surface1129
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+surface1130
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1306.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1131
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1306.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+
+surface1132
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+
+surface1133
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1134
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1135
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1108.png,0,0
+}
+
+
+surface1136
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+
+surface1137
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+surface1138
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+
+surface1139
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1140{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1105.png,0,0
+}
+
+
+surface1141
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1142
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1108.png,0,0
+}
+
+
+surface1143
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+
+surface1144
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1004.png,0,0
+}
+
+
+surface1145
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+
+surface1146
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+
+surface1147
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1148
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1105.png,0,0
+}
+
+
+surface1149
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1150
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1108.png,0,0
+}
+
+
+surface1151
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+surface1152
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+
+surface1153
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+
+surface1154
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1155
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1156
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1108.png,0,0
+}
+
+
+surface1157
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+
+surface1158
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+
+surface1159
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+
+surface1160
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1161
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1162{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1108.png,0,0
+}
+
+
+surface1163
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+
+surface1164
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+
+surface1165
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1305.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+surface1166{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1305.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1167
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1305.png,0,0
+    element3,overlay,surface1108.png,0,0
+}
+
+
+surface1168
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1305.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+surface1169
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1305.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+surface1170
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1306.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1171
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+
+surface1172
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1173
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1174
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1108.png,0,0
+}
+
+
+surface1175
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+
+surface1176
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+
+surface1177
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+
+surface1178
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1179
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1105.png,0,0
+}
+
+
+surface1180
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1181
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1108.png,0,0
+}
+
+
+surface1182
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+
+surface1183
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1004.png,0,0
+}
+
+
+surface1184
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+
+surface1185
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+
+surface1186
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1187
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1105.png,0,0
+}
+
+
+surface1188
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1106.png,0,0
+}
+
+
+surface1189{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1190
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+surface1191
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+
+surface1192
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+
+surface1193{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+surface1194
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1195
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+
+surface1196{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+
+surface1197
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+
+surface1198
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1199
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1200
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1108.png,0,0
+}
+
+
+surface1201
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+
+surface1202
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+
+surface1203
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1305.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1204{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1306.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+surface1205
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1306.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+
+surface1206
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1100.png,0,0
+}
+
+
+surface1207
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1208
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1209
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1108.png,0,0
+}
+
+
+surface1210
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+
+surface1211
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+
+surface1212
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1203.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+surface1213
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1203.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+
+surface1214
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1203.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1105.png,0,0
+}
+
+
+surface1215
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1203.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1106.png,0,0
+}
+
+
+surface1216
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1203.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+surface1217
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1203.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1104.png,0,0
+}
+
+
+surface1218{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1203.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1107.png,0,0
+}
+
+
+surface1219
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1203.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1005.png,0,0
+}
+
+surface1220
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1204.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1105.png,0,0
+}
+
+
+surface1221
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1204.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1105.png,0,0
+}
+
+
+surface1222
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1204.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1003.png,0,0
+}
+
+
+surface1223
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1104.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+
+surface1224
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1105.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+
+surface1225
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1003.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+
+surface1226
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1004.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+
+surface1227
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1104.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+
+surface1228
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1105.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+
+surface1229
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1003.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+
+surface1230
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1204.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1100.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+
+surface1231
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1204.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1104.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+
+surface1232
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1204.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1105.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+
+surface1233
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1204.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1003.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+
+surface1234
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1204.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1004.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+
+surface1235
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1100.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+surface1236
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1104.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1237
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1107.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1238{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1003.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1239
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1005.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1240
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1100.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+surface1241
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1104.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1242
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1107.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1243
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1003.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+surface1244{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1005.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1245
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1305.png,0,0
+    element3,overlay,surface1107.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+surface1246{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1100.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1247
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1104.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1248
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1105.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1249
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1107.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1250
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1003.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+surface1251{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1005.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+surface1252{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1104.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1253
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1105.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+surface1254
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1107.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1255
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1104.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1256
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1105.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+surface1257{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1107.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1258
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1005.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+surface1259
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1305.png,0,0
+    element3,overlay,surface1107.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+surface1260
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1305.png,0,0
+    element3,overlay,surface1003.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1261{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1305.png,0,0
+    element3,overlay,surface1005.png,0,0
+    element4,overlay,surface1501.png,0,0
+}
+
+
+surface1262
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1100.png,0,0
+    element4,overlay,surface1502.png,0,0
+}
+
+
+surface1263
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1104.png,0,0
+    element4,overlay,surface1502.png,0,0
+}
+
+
+surface1264
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1104.png,0,0
+    element4,overlay,surface1502.png,0,0
+}
+
+
+surface1265
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1305.png,0,0
+    element3,overlay,surface1104.png,0,0
+    element4,overlay,surface1502.png,0,0
+}
+
+
+surface1266
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1305.png,0,0
+    element3,overlay,surface1105.png,0,0
+    element4,overlay,surface1502.png,0,0
+}
+
+
+surface1267{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1006.png,0,0
+}
+
+
+surface1268
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1006.png,0,0
+}
+
+surface1269
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1204.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1006.png,0,0
+}
+
+
+Åîà»â∫ïaÇ›ñ⁄ÉTÅ[ÉtÉFÉX
+
+
+surface1270
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1101.png,0,0
+}
+
+
+surface1271
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1106.png,0,0
+}
+
+
+surface1272
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1106.png,0,0
+}
+
+surface1273
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1101.png,0,0
+}
+
+
+surface1274
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1101.png,0,0
+}
+
+
+surface1275
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1200.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1101.png,0,0
+}
+
+
+surface1276
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1106.png,0,0
+}
+
+surface1277
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1106.png,0,0
+}
+
+surface1278
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1305.png,0,0
+    element3,overlay,surface1101.png,0,0
+}
+
+surface1279
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1101.png,0,0
+}
+
+
+surface1280
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1101.png,0,0
+}
+
+surface1281
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1106.png,0,0
+}
+
+surface1282
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1101.png,0,0
+}
+
+surface1283
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1101.png,0,0
+}
+
+
+surface1284
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1101.png,0,0
+}
+
+
+surface1285{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1304.png,0,0
+    element3,overlay,surface1101.png,0,0
+}
+
+surface1286{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1202.png,0,0
+    element2,overlay,surface1307.png,0,0
+    element3,overlay,surface1101.png,0,0
+}
+
+
+surface1287{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1203.png,0,0
+    element2,overlay,surface1303.png,0,0
+    element3,overlay,surface1101.png,0,0
+}
+
+surface1288
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1204.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1106.png,0,0
+}
+
+surface1289
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1204.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1106.png,0,0
+}
+
+surface1290{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1106.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+surface1291
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1201.png,0,0
+    element2,overlay,surface1302.png,0,0
+    element3,overlay,surface1106.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+
+surface1292
+{
+    element0,overlay,surface1000.png,0,0
+    element1,overlay,surface1204.png,0,0
+    element2,overlay,surface1301.png,0,0
+    element3,overlay,surface1106.png,0,0
+    element4,overlay,surface1500.png,0,0
+}
+
+//=============================================================
+
+surface.append0,1000
+{
+    animation0.interval,always
+    animation0.pattern0,overlay,1100,0,0,0
+    animation0.pattern1,overlay,1101,1000-3000,0,0
+    animation0.pattern2,overlay,1003,50,0,0
+    animation0.pattern3,overlay,1101,50,0,0
+    animation0.pattern4,overlay,1100,50,0,0
+}
+
+
+
+//Å°éOêHícéq
+
+surface2000
+{
+//ïÅí 
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2121.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2011
+{
+//ç¢ÇË
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2112.png,0,0
+    element2,overlay,surface2121.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2012
+{
+//ì{ÇË
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2113.png,0,0
+    element2,overlay,surface2121.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2013
+{
+//èŒÇ›
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2121.png,0,0
+    element3,overlay,surface2144.png,0,0
+}
+
+surface2014
+{
+//ã¡Ç´
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2114.png,0,0
+    element2,overlay,surface2121.png,0,0
+    element3,overlay,surface2143.png,0,0
+}
+
+surface2015
+{
+//ÉWÉgñ⁄
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2122.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2016
+{
+//ñ⁄ï¬Ç∂
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2123.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2017
+{
+//ñ⁄ï¬Ç∂ç¢ÇË
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2112.png,0,0
+    element2,overlay,surface2123.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2018
+{
+//ñ⁄ï¬Ç∂èŒÇ›
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2123.png,0,0
+    element3,overlay,surface2144.png,0,0
+}
+
+surface2019
+{
+//èŒÇ¢
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2124.png,0,0
+    element3,overlay,surface2145.png,0,0
+}
+
+surface2020
+{
+//Ç€Ç©ÇÒ
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2125.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2021
+{
+//ñ_ñ⁄
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2112.png,0,0
+    element2,overlay,surface2126.png,0,0
+    element3,overlay,surface2142.png,0,0
+    element4,overlay,surface2151.png,0,0
+}
+
+surface2030
+{
+//0î‘+è∆ÇÍ
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2131.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2031
+{
+//11î‘+è∆ÇÍ
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2112.png,0,0
+    element2,overlay,surface2131.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2032
+{
+//12î‘+è∆ÇÍ
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2113.png,0,0
+    element2,overlay,surface2131.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2033
+{
+//13î‘+è∆ÇÍ
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2131.png,0,0
+    element3,overlay,surface2144.png,0,0
+}
+
+surface2034
+{
+//14î‘+è∆ÇÍ
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2114.png,0,0
+    element2,overlay,surface2131.png,0,0
+    element3,overlay,surface2143.png,0,0
+}
+
+surface2035
+{
+//15î‘+è∆ÇÍ
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2132.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2036
+{
+//16î‘+è∆ÇÍ
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2133.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2037
+{
+//17î‘+è∆ÇÍ
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2112.png,0,0
+    element2,overlay,surface2133.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2038
+{
+//18î‘+è∆ÇÍ
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2133.png,0,0
+    element3,overlay,surface2144.png,0,0
+}
+
+surface2039
+{
+//19î‘+è∆ÇÍ
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2134.png,0,0
+    element3,overlay,surface2145.png,0,0
+}
+
+surface2040
+{
+//20î‘+è∆ÇÍ
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2111.png,0,0
+    element2,overlay,surface2135.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2041
+{
+//21î‘+è∆ÇÍ
+    element0,overlay,surface2000.png,0,0
+    element1,overlay,surface2112.png,0,0
+    element2,overlay,surface2136.png,0,0
+    element3,overlay,surface2142.png,0,0
+    element4,overlay,surface2151.png,0,0
+}
+
+surface2050
+{
+//Ç‚ÇÍÇ‚ÇÍ
+    element0,overlay,surface2001.png,0,0
+    element1,overlay,surface2112.png,0,0
+    element2,overlay,surface2123.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2051
+{
+//ïÇÍ
+    element0,overlay,surface2001.png,0,0
+    element1,overlay,surface2112.png,0,0
+    element2,overlay,surface2123.png,0,0
+    element3,overlay,surface2144.png,0,0
+}
+
+surface2055
+{
+//50î‘+è∆ÇÍ
+    element0,overlay,surface2001.png,0,0
+    element1,overlay,surface2112.png,0,0
+    element2,overlay,surface2133.png,0,0
+    element3,overlay,surface2141.png,0,0
+}
+
+surface2056
+{
+//51î‘+è∆ÇÍ
+    element0,overlay,surface2001.png,0,0
+    element1,overlay,surface2112.png,0,0
+    element2,overlay,surface2133.png,0,0
+    element3,overlay,surface2144.png,0,0
+}
+
+surface2060
+{
+//òrëgÇ›
+    element0,overlay,surface2002.png,0,0
+    element1,overlay,surface2211.png,0,0
+    element2,overlay,surface2221.png,0,0
+    element3,overlay,surface2241.png,0,0
+}
+
+surface2061
+{
+//òrëgÇ›ç¢ÇË
+    element0,overlay,surface2002.png,0,0
+    element1,overlay,surface2212.png,0,0
+    element2,overlay,surface2221.png,0,0
+    element3,overlay,surface2241.png,0,0
+}
+
+surface2062
+{
+//òrÇ≠Ç›ì{ÇË
+    element0,overlay,surface2002.png,0,0
+    element1,overlay,surface2213.png,0,0
+    element2,overlay,surface2221.png,0,0
+    element3,overlay,surface2241.png,0,0
+}
+
+surface2063
+{
+//òrëgÇ›ï–ñ⁄
+    element0,overlay,surface2002.png,0,0
+    element1,overlay,surface2211.png,0,0
+    element2,overlay,surface2222.png,0,0
+    element3,overlay,surface2241.png,0,0
+}
+
+surface2064
+{
+//òrëgÇ›ñ⁄ï¬Ç∂
+    element0,overlay,surface2002.png,0,0
+    element1,overlay,surface2211.png,0,0
+    element2,overlay,surface2223.png,0,0
+    element3,overlay,surface2241.png,0,0
+}
+
+surface2065
+{
+//òrëgÇ›îYÇ›
+    element0,overlay,surface2002.png,0,0
+    element1,overlay,surface2212.png,0,0
+    element2,overlay,surface2223.png,0,0
+    element3,overlay,surface2241.png,0,0
+}
+
+surface2066
+{
+//òrëgÇ›çlÇ¶éñ
+    element0,overlay,surface2002.png,0,0
+    element1,overlay,surface2213.png,0,0
+    element2,overlay,surface2223.png,0,0
+    element3,overlay,surface2241.png,0,0
+}
+
+surface2070
+{
+//60î‘+è∆ÇÍ
+    element0,overlay,surface2002.png,0,0
+    element1,overlay,surface2211.png,0,0
+    element2,overlay,surface2231.png,0,0
+    element3,overlay,surface2241.png,0,0
+}
+
+surface2071
+{
+//61î‘+è∆ÇÍ
+    element0,overlay,surface2002.png,0,0
+    element1,overlay,surface2212.png,0,0
+    element2,overlay,surface2231.png,0,0
+    element3,overlay,surface2241.png,0,0
+}
+
+surface2072
+{
+//62î‘+è∆ÇÍ
+    element0,overlay,surface2002.png,0,0
+    element1,overlay,surface2213.png,0,0
+    element2,overlay,surface2231.png,0,0
+    element3,overlay,surface2241.png,0,0
+}
+
+surface2073
+{
+//63î‘+è∆ÇÍ
+    element0,overlay,surface2002.png,0,0
+    element1,overlay,surface2211.png,0,0
+    element2,overlay,surface2232.png,0,0
+    element3,overlay,surface2241.png,0,0
+}
+
+surface2074
+{
+//64î‘+è∆ÇÍ
+    element0,overlay,surface2002.png,0,0
+    element1,overlay,surface2211.png,0,0
+    element2,overlay,surface2233.png,0,0
+    element3,overlay,surface2241.png,0,0
+}
+
+surface2075
+{
+//65î‘+è∆ÇÍ
+    element0,overlay,surface2002.png,0,0
+    element1,overlay,surface2212.png,0,0
+    element2,overlay,surface2233.png,0,0
+    element3,overlay,surface2241.png,0,0
+}
+
+surface2076
+{
+//66î‘+è∆ÇÍ
+    element0,overlay,surface2002.png,0,0
+    element1,overlay,surface2213.png,0,0
+    element2,overlay,surface2233.png,0,0
+    element3,overlay,surface2241.png,0,0
+}
+
+surface2080
+{
+//ïsà¿
+    element0,overlay,surface2003.png,0,0
+    element1,overlay,surface2312.png,0,0
+    element2,overlay,surface2321.png,0,0
+    element3,overlay,surface2341.png,0,0
+}
+
+surface2081
+{
+//ãëê‚
+    element0,overlay,surface2003.png,0,0
+    element1,overlay,surface2313.png,0,0
+    element2,overlay,surface2321.png,0,0
+    element3,overlay,surface2341.png,0,0
+}
+
+surface2082
+{
+//·“ëz
+    element0,overlay,surface2003.png,0,0
+    element1,overlay,surface2311.png,0,0
+    element2,overlay,surface2322.png,0,0
+    element3,overlay,surface2341.png,0,0
+}
+
+surface2083
+{
+//êSí…
+    element0,overlay,surface2003.png,0,0
+    element1,overlay,surface2312.png,0,0
+    element2,overlay,surface2322.png,0,0
+    element3,overlay,surface2341.png,0,0
+}
+
+surface2085
+{
+//80î‘+è∆ÇÍ
+    element0,overlay,surface2003.png,0,0
+    element1,overlay,surface2312.png,0,0
+    element2,overlay,surface2331.png,0,0
+    element3,overlay,surface2341.png,0,0
+}
+
+surface2086
+{
+//81î‘+è∆ÇÍ
+    element0,overlay,surface2003.png,0,0
+    element1,overlay,surface2313.png,0,0
+    element2,overlay,surface2331.png,0,0
+    element3,overlay,surface2341.png,0,0
+}
+
+surface2087
+{
+//82î‘+è∆ÇÍ
+    element0,overlay,surface2003.png,0,0
+    element1,overlay,surface2311.png,0,0
+    element2,overlay,surface2332.png,0,0
+    element3,overlay,surface2341.png,0,0
+}
+
+surface2088
+{
+//83î‘+è∆ÇÍ
+    element0,overlay,surface2003.png,0,0
+    element1,overlay,surface2312.png,0,0
+    element2,overlay,surface2332.png,0,0
+    element3,overlay,surface2341.png,0,0
+}
+
+//------------------------------------------------
+//èuÇ´+å˚ÉpÉN
+
+surface.append10,2000,2011-2015
+{
+//èuÇ´1
+    animation0.interval,random,10
+    animation0.pattern0,overlay,2123,0,0,0
+    animation0.pattern1,overlay,-1,100,0,0
+}
+
+surface.append2030-2035
+{
+//èuÇ´1+è∆ÇÍ
+    animation0.interval,random,10
+    animation0.pattern0,overlay,2133,0,0,0
+    animation0.pattern1,overlay,-1,100,0,0
+}
+
+surface.append2060-2062
+{
+//èuÇ´3
+    animation0.interval,random,10
+    animation0.pattern0,overlay,2223,0,0,0
+    animation0.pattern1,overlay,-1,100,0,0
+}
+
+surface.append2070-2072
+{
+//èuÇ´3+è∆ÇÍ
+    animation0.interval,random,10
+    animation0.pattern0,overlay,2233,0,0,0
+    animation0.pattern1,overlay,-1,100,0,0
+}
+
+surface.append2080,2081
+{
+//èuÇ´4
+    animation0.interval,random,10
+    animation0.pattern0,overlay,2322,0,0,0
+    animation0.pattern1,overlay,-1,100,0,0
+}
+
+
+surface.append2085,2086
+{
+//èuÇ´4+è∆ÇÍ
+    animation0.interval,random,10
+    animation0.pattern0,overlay,2332,0,0,0
+    animation0.pattern1,overlay,-1,100,0,0
+}
+
+
+
+surface.append10,2000,2011,2012,2014-2017,2020,2021,2030-2032,2034-2037,2040,2041,2050,2055
+{
+//å˚ÉpÉN1-2ïÅí 
+    animation1.interval,talk,5
+    animation1.pattern0,overlay,2143,0,0,0
+    animation1.pattern1,overlay,-1,100,0,0
+    animation1.pattern2,overlay,2143,100,0,0
+    animation1.pattern3,overlay,-1,100,0,0
+}
+
+surface.append2013,2018,2019,2033,2038,2039,2051,2056
+{
+//å˚ÉpÉN1-2èŒÇ¢
+    animation1.interval,talk,5
+    animation1.pattern0,overlay,2146,0,0,0
+    animation1.pattern1,overlay,-1,100,0,0
+    animation1.pattern2,overlay,2146,100,0,0
+    animation1.pattern3,overlay,-1,100,0,0
+}
+
+surface.append2060-2066,2070-2076
+{
+//å˚ÉpÉN3
+    animation1.interval,talk,5
+    animation1.pattern0,overlay,2242,0,0,0
+    animation1.pattern1,overlay,-1,100,0,0
+    animation1.pattern2,overlay,2242,100,0,0
+    animation1.pattern3,overlay,-1,100,0,0
+}
+
+surface.append2080-2083,2085-2088
+{
+//å˚ÉpÉN4
+    animation1.interval,talk,5
+    animation1.pattern0,overlay,2342,0,0,0
+    animation1.pattern1,overlay,-1,100,0,0
+    animation1.pattern2,overlay,2342,100,0,0
+    animation1.pattern3,overlay,-1,100,0,0
+}
+
+//------------------------------------------------
+//Ç≥ÇÌÇËîªíË
+
+surface.append10,2000-2011-2021,2030-2041
+{
+    collisionex0,Head,polygon,112,28,93,10,59,9,42,26,59,47,105,45
+    collisionex1,Ear,polygon,53,41,29,26,29,45,46,57
+    collisionex2,Mouth,polygon,92,78,78,76,78,84,87,88,94,84
+    collisionex3,Bust,polygon,96,103,66,107,67,130,101,124
+    collisionex4,Belly,polygon,102,142,72,143,62,156,92,165,106,155
+    collisionex5,Thigh,polygon,105,183,82,187,55,182,51,202,74,205,81,188,82,202,102,203
+    collisionex6,Hand,polygon,30,168,25,164,7,181,12,186,25,185
+}
+
+surface.append2050,2051,2055,2056
+{
+    collisionex0,Head,polygon,112,28,93,10,59,9,42,26,59,47,105,45
+    collisionex1,Ear,polygon,53,41,29,26,29,45,46,57
+    collisionex2,Mouth,polygon,92,78,78,76,78,84,87,88,94,84
+    collisionex3,Bust,polygon,96,103,66,107,67,130,101,124
+    collisionex4,Belly,polygon,102,142,72,143,62,156,92,165,106,155
+    collisionex5,Thigh,polygon,105,183,82,187,55,182,51,202,74,205,81,188,82,202,102,203
+    collisionex6,Hand,polygon,48,119,33,115,24,124,38,132
+    collisionex7,Hand,polygon,149,116,140,105,128,107,127,117,143,119
+}
+
+surface.append2060-2066,2070-2076
+{
+    collisionex0,Head,polygon,111,31,93,11,58,12,39,31,60,47,104,43
+    collisionex1,Ear,polygon,58,45,37,31,38,55,54,64
+    collisionex2,Mouth,polygon,95,84,92,80,83,80,81,85,90,89
+    collisionex3,Bust,polygon,94,102,74,106,75,128,102,120
+    collisionex4,Belly,polygon,101,140,68,139,63,156,96,164,107,154
+    collisionex5,Thigh,polygon,109,182,86,186,66,184,62,201,84,204,86,188,90,204,112,199
+}
+
+surface.append2080-2083,2085-2088
+{
+    collisionex0,Head,polygon,111,29,91,8,56,11,41,26,60,47,106,44
+    collisionex1,Ear,polygon,57,43,40,26,37,47,49,59
+    collisionex2,Mouth,polygon,91,83,87,76,77,76,75,83,85,89
+    collisionex3,Bust,polygon,94,102,74,106,75,128,102,120
+    collisionex4,Belly,polygon,101,140,68,139,63,156,96,164,107,154
+    collisionex5,Thigh,polygon,109,182,86,186,66,184,62,201,84,204,86,188,90,204,112,199
+}

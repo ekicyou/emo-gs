@@ -1,0 +1,16 @@
+charset,UTF-8
+
+type,ghost
+name,えも？
+sakura.name,むらさき
+kero.name,エモ
+
+id.emo
+
+craftman,ekicyou
+craftmanw,えちょ
+craftmanurl,https://ekicyou.github.io/
+
+icon,emo.ico
+
+shiori,emo.dll

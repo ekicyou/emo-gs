@@ -1,0 +1,4 @@
+charset,Shift_JIS
+type,balloon
+name,kakukaku for emo-gs
+directory,emo-kakukaku

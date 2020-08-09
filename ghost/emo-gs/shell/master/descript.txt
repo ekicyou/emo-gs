@@ -1,0 +1,8 @@
+charset,Shift_JIS
+type,shell
+name,「コンフィズリー」＆「City-Pop'n」
+seriko.use_self_alpha,1
+seriko.alignmenttodesktop,bottom
+
+sakura.defaultx,0
+kero.defaultx,0
