@@ -1,4 +1,4 @@
-windowposition.x,434
+windowposition.x,-190
 windowposition.y,-75
 
 validrect.top,40
