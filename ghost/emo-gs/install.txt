@@ -1,0 +1,6 @@
+Charset,UTF-8
+type,ghost
+name,えも？
+directory,emo
+balloon.directory,emo-kakukaku
+balloon.source.directory,emo-kakukaku
