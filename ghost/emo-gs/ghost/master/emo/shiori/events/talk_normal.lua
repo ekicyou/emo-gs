@@ -27,7 +27,7 @@ end
 
 --起動トーク
 function EV:OnBoot(data, req)
-    local value = [=[\1\s[10]\0\s[5]OnBoot:起動トークや！\_w[600]\1\s[10]や、\9お久しぶり。\w9\w9\e]=]
+    local value = [=[\1\s[10]\0\s[5]OnBoot:起動トークや！\_w[600]\1\s[10]や、\_w[400]お久しぶり。\w9\w9\e]=]
     return response.ok(value)
 end
 
