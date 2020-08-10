@@ -9,7 +9,7 @@ homeurl,https://raw.githubusercontent.com/ekicyou/emo-gs/stable/ghost/emo-gs/
 
 craftman,ekicyou
 craftmanw,えちょ
-craftmanurl,https://ekicyou.github.io/
+craftmanurl,https://ekicyou.github.io/2020/08/10/emo.html
 
 icon,emo.ico
 

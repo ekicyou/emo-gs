@@ -1,6 +1,11 @@
-charset,Shift_JIS
+charset,UTF-8
 type,shell
-name,uƒRƒ“ƒtƒBƒYƒŠ[v•uCity-Pop'nv
+name,ã€Œã‚³ãƒ³ãƒ•ã‚£ã‚ºãƒªãƒ¼ã€ï¼†ã€ŒCity-Pop'nã€
+
+craftman,ekicyou
+craftmanw,ãˆã¡ã‚‡
+craftmanurl,https://ekicyou.github.io/2020/08/10/emo.html
+
 seriko.use_self_alpha,1
 seriko.alignmenttodesktop,bottom
 
