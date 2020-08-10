@@ -1,4 +1,4 @@
-local shuffle  = require "libs.shuffle"
+local o  = require "talks.o"
 
 local talk_items = {
 [=[
@@ -32,31 +32,8 @@ local talk_items = {
 \1\s[10]\0\s[0]いつものお話やで９。\1\s[10]ネタはないの？\e]=],
 }
 
-local function table_copy(t)
-    local t2 = {}
-    for k,v in pairs(t) do
-        t2[k] = v
-    end
-    return t2
-end
 
---トーク実行コルーチン
-local function talk_loop(args)
-    local data = args.data
-    local req  = args.req
-
-    while true do
-        local sh = table_copy(talk_items)
-        -- shuffle.shuffle(sh)
-        for i,v in ipairs(sh) do
-            local args = coroutine.yield(v)
-            data = args.data
-            req  = args.req
-        end
-    end
-end
-
-local co_talk = coroutine.wrap(talk_loop)
+local co_talk = o.INFINITY(o.RAND(talk_items))
 
 local function call(data, req)
     local args = {}
