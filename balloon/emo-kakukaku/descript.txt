@@ -1,10 +1,11 @@
-charset,Shift_JIS
+charset,UTF-8
 type,balloon
 name,kakukaku for emo-gs
 homeurl,https://raw.githubusercontent.com/ekicyou/emo-gs/stable/ghost/emo-gs/emo-kakukaku/
 
-craftmanurl,https://ekicyou.github.io/
 craftman,ekicyou
+craftmanw,えちょ
+craftmanurl,https://ekicyou.github.io/2020/08/10/emo.html
 
 
 use_self_alpha,1
