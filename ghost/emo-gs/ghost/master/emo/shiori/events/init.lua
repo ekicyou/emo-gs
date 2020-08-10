@@ -4,13 +4,19 @@
 local event_defs = {
     "shiori.events.fire_request",
     "shiori.events.no_entry",
+    "shiori.events.talk_event",
     "shiori.events.talk_normal"
 }
+local talks  = require "talks"
 
 --イベントテーブルの読み込み
 local EV={}
 do
     for i,v in ipairs(event_defs) do
+        local reg = require(v)
+        reg(EV)
+    end
+    for i,v in ipairs(talks.defs) do
         local reg = require(v)
         reg(EV)
     end
