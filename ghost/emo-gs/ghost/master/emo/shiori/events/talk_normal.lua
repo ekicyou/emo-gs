@@ -12,8 +12,8 @@ function EV:OnSecondChange(data, req)
         return response.ok(value)   
     end
     if has_talk.normal(req.status_dic, data) then
-        local value = [=[\1\s[10]\0\s[0]いつものお話やで。\w9\w9\1\s[10]ネタはないの？\w9\w9\e]=]
-        return response.ok(value)
+        local value = [=[\1\s[10]\0\s[0]いつものお話やで。\1\s[10]ネタはないの？\e]=]
+        return response.talk(value)
     end
     return self:no_entry(data, req)
 end
@@ -27,16 +27,16 @@ end
 --初回トーク
 function EV:OnFirstBoot(data, req)
     local s = [=[\1\![move,-353,,,0,base,base]]=]
-    s = s.. [=[\0\c\s[5]はじめましてや！！\_w[600]\nうちは、\_w[300]むらさき。\_w[400]よろしゅうに！\_w[800]]=]
-    s = s.. [=[\1\c\s[10]僕はエモ。\_w[400]\s[15]クール系の可愛い娘。\_w[600]]=]
-    s = s.. [=[\0\n[150]\s[A0342]そこ自分でいう‥‥。\_w[800]]=]
-    s = s.. [=[\1\c\s[19]イイジャン！\_w[600]‥\_w[200]‥\_w[200]ええと、\_w[400]\s[106]僕は日常から「感情」を探してるんだ。\_w[600]]=]
-    s = s.. [=[\0\c\s[100] \0\s[6]つまり、\_w[300]、\n\_w[300]\s[B1332]エモを弄ってればOK？\_w[700]]=]
-    s = s.. [=[\1\c\s[19]ちがうよう。\_w[800]]=]
-    s = s.. [=[\0\n[150]\s[A0342]まあ、\_w[500]\s[5]ぼちぼちやー。\_w[800]]=]
-    s = s.. [=[\1\c\s[15]よろしくね。\_w[800]]=]
+    s = s.. [=[\0\c\s[5]はじめましてや！！\nうちは、むらさき。]=]
+    s = s.. [=[\1\c\s[10]僕はエモ。\s[15]クール系の可愛い娘。]=]
+    s = s.. [=[\0\n[150]\s[A0342]そこ自分でいう‥‥。]=]
+    s = s.. [=[\1\c\s[19]イイジャン！‥‥ええと、\s[106]僕は日常から「感情」を探してるんだ。]=]
+    s = s.. [=[\0\c\s[100] \0\s[6]つまり、、\n\s[B1332]エモを弄ってればOK？]=]
+    s = s.. [=[\1\c\s[19]ちがうよう。]=]
+    s = s.. [=[\0\n[150]\s[A1213]まあ、\s[5]これから、よろしゅうに！]=]
+    s = s.. [=[\1\c\s[15]よろしくね。]=]
     s = s.. [=[\e]=]
-    return response.ok(s)
+    return response.talk(s)
 end
 
 --起動トーク
@@ -47,8 +47,8 @@ end
 
 --クリック
 function EV:OnMouseDoubleClick(data, req)
-    local value = [=[\1\![move,-353,,,0,base,base]\s[100]\0\s[0]\_qOnMouseDoubleClick\n\_qおや、\_w[400]ダブルクリックされたよ。\_w[600]\1\s[100]あいたたた？\w9\w9\e]=]
-    return response.ok(value)
+    local value = [=[\1\![move,-353,,,0,base,base]\s[100]\0\s[0]\_qOnMouseDoubleClick\n\_qおや、ダブルクリックされたよ。\1\s[100]あいたたた？\e]=]
+    return response.talk(value)
 end
 
 --バルーン切り替え
