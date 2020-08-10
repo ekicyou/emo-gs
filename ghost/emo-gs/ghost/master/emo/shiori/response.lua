@@ -8,6 +8,8 @@ SHIORI RESPONSE
     [CRLF]
 ]]
 
+local insert_wait  = require "shiori.insert_wait" 
+
 local CRLF = "\r\n"
 local SPLIT = ": "
 local env ={
@@ -99,6 +101,14 @@ end
 
 
 
+-- talk             ウェイト処理を追加し、200 OK終了する。
+--                  env.time_ok に最終送信時刻を保存
+local function talk(script, dic)
+    local value = insert_wait.insert_wait(script)
+    return ok(value, dic)
+end
+
+
 local pub = {
     join                = join,
     env                 = env,
@@ -112,6 +122,7 @@ local pub = {
     advice              = advice,
     bad_request         = bad_request,
     err                 = err,
+    talk                = talk,
 }
 
 return pub
