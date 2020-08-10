@@ -70,16 +70,34 @@ function EV:OnUpdateReady(data, req)
     return response.talk(value)
 
 end
+
 --ネットワーク更新：更新成功
 function EV:OnUpdateComplete(data, req)
+    if req.reference[0] == "changed" then
+        return EV:OnUpdateChanged(data, req)
+    else
+        return EV:OnUpdateNone(data, req)
+    end
+end
+
+--ネットワーク更新：更新された
+function EV:OnUpdateChanged(data, req)
     local value = [=[\1\s[100]\0\s[B0823]更新したで！\1\s[15]どこが変わったかな？\e]=]
     return response.talk(value)
 end
---ネットワーク更新：更新失敗
-function EV:OnUpdateFailure(data, req)
+
+--ネットワーク更新：更新されなかった
+function EV:OnUpdateNone(data, req)
     local value = [=[\1\s[210]\0\s[B0511]こえへん‥‥\1\s[202]ｲｷﾛｰ｡\e]=]
     return response.talk(value)
 end
+
+--ネットワーク更新：更新失敗
+function EV:OnUpdateFailure(data, req)
+    local value = [=[\1\s[210]\0\s[B0511]みつからへん‥‥\1\s[202]ｲｷﾛｰ｡\e]=]
+    return response.talk(value)
+end
+
 
 --
 end

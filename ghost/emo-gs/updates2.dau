@@ -35,7 +35,7 @@ ghost/master/emo/shiori/events/fire_request.luad375e2bc2c31e9b27cdf194df849a8dc
 ghost/master/emo/shiori/events/init.luaf67b349a37e472f7f205e3fbc74da216size=669
 ghost/master/emo/shiori/events/no_entry.lua7a68a9c99331bbe3f4d4f38808e56689size=645
 ghost/master/emo/shiori/events/readme.mdbc5fbb9a868d4f6d229f9452924435fesize=625
-ghost/master/emo/shiori/events/talk_normal.luaceb1b82a3583565cea5803f5092cfa61size=3255
+ghost/master/emo/shiori/events/talk_normal.luac9c0cc059638a0116e34bf78adfa8ad9size=3733
 ghost/master/emo/shiori/has_talk.lua60755c4ef9e553dfdcc833b24605961csize=1111
 ghost/master/emo/shiori/hello.lua5f80333fb5764c941dc1ab9d21693681size=147
 ghost/master/emo/shiori/init.lua87e2a51ee9ddfc96ea887bb9a1e5ed39size=1533
