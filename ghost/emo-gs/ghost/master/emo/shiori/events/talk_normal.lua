@@ -41,8 +41,8 @@ end
 
 --起動トーク
 function EV:OnBoot(data, req)
-    local value = [=[\1\![move,-353,,,0,base,base]\s[100]\0\s[5]OnBoot:起動トークや！\_w[600]\1\s[10]や、\_w[400]お久しぶり。\w9\w9\e]=]
-    return response.ok(value)
+    local value = [=[\1\![move,-353,,,0,base,base]\s[100]\0\s[5]起動したで！\1\s[10]や、お久しぶり。\e]=]
+    return response.talk(value)
 end
 
 --クリック
@@ -61,23 +61,24 @@ end
 
 --ネットワーク更新：ネットワーク更新開始
 function EV:OnUpdateBegin(data, req)
-    local value = [=[\1\s[100]\0\s[5]あったらし～い～、\_w[400]更新は？\_w[600]\w9\w9\1\s[100]きた？\_w[600]\e]=]
-    return response.ok(value)
+    local value = [=[\1\s[100]\0\s[5]あったらし～い～、更新は？\1\s[100]きた？\e]=]
+    return response.talk(value)
 end
 --ネットワーク更新：更新ファイル確認
 function EV:OnUpdateReady(data, req)
-    local value = [=[\1\s[210]\0\s[B0511]こえへん‥‥\_w[210]\1\s[202]ｲｷﾛｰ｡\_w[600]\e]=]
-    return response.ok(value)
+    local value = [=[\1\s[100]\0\s[B1315]きたよぉ～。\1\s[18]期待しない方が‥‥\e]=]
+    return response.talk(value)
+
 end
 --ネットワーク更新：更新成功
 function EV:OnUpdateComplete(data, req)
-    local value = [=[\1\s[100]\0\s[0]\_qOnBalloonChange\n\_qバルーン切り替えです。\_w[600]\1\s[100]ばるるるるん？\_w[600]\e]=]
-    return response.ok(value)
+    local value = [=[\1\s[100]\0\s[B0823]更新したで！\1\s[5]どこが変わったかな？\e]=]
+    return response.talk(value)
 end
 --ネットワーク更新：更新失敗
 function EV:OnUpdateFailure(data, req)
-    local value = [=[\1\s[100]\0\s[0]\_qOnBalloonChange\n\_qバルーン切り替えです。\_w[600]\1\s[100]ばるるるるん？\_w[600]\e]=]
-    return response.ok(value)
+    local value = [=[\1\s[210]\0\s[B0511]こえへん‥‥\1\s[202]ｲｷﾛｰ｡\e]=]
+    return response.talk(value)
 end
 
 --
