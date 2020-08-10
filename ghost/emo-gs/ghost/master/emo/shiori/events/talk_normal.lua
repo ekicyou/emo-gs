@@ -72,7 +72,7 @@ function EV:OnUpdateReady(data, req)
 end
 --ネットワーク更新：更新成功
 function EV:OnUpdateComplete(data, req)
-    local value = [=[\1\s[100]\0\s[B0823]更新したで！\1\s[5]どこが変わったかな？\e]=]
+    local value = [=[\1\s[100]\0\s[B0823]更新したで！\1\s[15]どこが変わったかな？\e]=]
     return response.talk(value)
 end
 --ネットワーク更新：更新失敗
