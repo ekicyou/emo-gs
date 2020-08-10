@@ -26,7 +26,11 @@ end
 
 --クリック
 function EV:ダブルクリック(data, req)
-    local value = [=[\1\![move,-353,,,0,base,base]\s[100]\0\s[0]\_qOnMouseDoubleClick\n\_qおや、ダブルクリックされたよ。\1\s[100]あいたたた？\e]=]
+
+    local value = [=[
+\1\s[10]\0\s[B1124]アヒルやアヒル！\n11年ぶり、大阪にアヒルが\n帰ってくるねんで！\1\s[10]‥‥11年前って、\n覚えてるの？\e]=]
+
+--  local value = [=[\1\![move,-353,,,0,base,base]\s[100]\0\s[0]\_qOnMouseDoubleClick\n\_qおや、ダブルクリックされたよ。\1\s[100]あいたたた？\e]=]
     return response.talk(value)
 end
 

@@ -2,7 +2,7 @@ local M={}
 
 M.defs = {
     "talks.event",
-    "talks.normal",
+    "talks.co_talk",
 }
 
 return M
