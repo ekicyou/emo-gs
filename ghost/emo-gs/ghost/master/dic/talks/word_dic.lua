@@ -28,10 +28,7 @@ function M.人名()
     return CO.人名()
 end
 
-CO.地名 = WRAP_COL("生息地")
-function M.地名()
-    return CO.地名()
-end
+
 
 CO.体の場所 = WRAP("カテゴリー", "体の場所")
 function M.体の場所()
@@ -41,6 +38,21 @@ end
 CO.物 = WRAP("カテゴリー", "物")
 function M.物()
     return CO.物()
+end
+
+CO.地名 = WRAP_COL("生息地")
+function M.地名()
+    return CO.地名()
+end
+
+CO.能力 = WRAP_COL("能力")
+function M.能力()
+    return CO.能力()
+end
+
+CO.XXXが出来る = WRAP_COL("XXXが出来る")
+function M.XXXが出来る()
+    return CO.XXXが出来る()
 end
 
 function M.s(ch, sf, num)
