@@ -16,6 +16,8 @@ utable(match_wait_table, 800, [=[｡]=])
 utable(match_wait_table, 400, [=[､｣]=])
 utable(match_wait_table, -200, [=[･]=])
 
+utable(match_wait_table, -1, "\r\n")
+
 
 local function WAIT(ms)
     if ms > 0 then
@@ -31,11 +33,12 @@ function M.insert_wait(text)
     for p, c in utf8.codes(text) do
         local pre = 0
         local suf = 0
-        local u = utf8.char(c)
         local wait = match_wait_table[c]
         if wait == nil then
             pre = remain
             remain = 0
+        elseif wait == -1 then
+            goto CTRL_SKIP
         elseif wait > 0 then
             if remain < wait then
                 remain = wait
@@ -45,9 +48,11 @@ function M.insert_wait(text)
             remain = 0
             suf = 0 - wait
         end
+        local u = utf8.char(c)
         rc = rc .. WAIT(pre)
         rc = rc .. u
         rc = rc .. WAIT(suf)
+        ::CTRL_SKIP::
     end
     rc = rc .. WAIT(remain)
     return rc
