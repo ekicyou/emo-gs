@@ -1,5 +1,7 @@
 --- どこいつ(DKIT)関数
 local M={}
+math.randomseed(os.time())
+
 
 --- ヘッダを読み込んでcolデータを作成
 local RE_DIC = "^#(.+)$"
