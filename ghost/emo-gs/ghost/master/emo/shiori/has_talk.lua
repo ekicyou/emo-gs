@@ -36,5 +36,54 @@ function M.normal(status_dic, data)
     return true
 end
 
+-- おさわり反応の発動タイミングならtrueを返す関数
+--   [data.save.touch]
+--      limit_sec  : 我慢の限界秒数
+--      time_start : 触り始めた時刻
+--      time_event : 最後のイベント時刻
+--      time_ok    : この関数が最後にtrueを返した時刻
+--      ref3       : 前回のref3値
+--      ref4       : 前回のref4値
+--      last_flag  : 前回のis_touch
+
+function M.touch(data, req)
+    local x = utils.get_tree_entry(data, "save", "touch")
+    local now           = os.time()
+    local status_dic    = req.status_dic
+    local ref           = req.reference
+    local is_touch      = true
+    --- 会話中はタッチ状態としない
+    is_touch = is_touch and (not status_dic.talking)
+
+    --- 対象が変わった場合はタッチ状態としない
+    is_touch = is_touch and x.ref3 == ref[3]
+    is_touch = is_touch and x.ref4 == ref[4]
+    x.ref3 = ref[3]
+    x.ref4 = ref[4]
+
+    --- 最後のイベントから２秒経過したならタッチ状態としない
+    is_touch = is_touch and x.time_event+2 > now
+    x.time_event = now
+
+    --- タッチ状態ではないときの処理
+    if not is_touch then
+        x.time_start    = now
+        x.last_flag     = false
+        return false
+    end
+
+    --- 時間経過を確認
+    if not x.limit_sec then
+        x.limit_sec = 3
+    end
+    if x.time_start+x.limit_sec > now then
+        return false
+    end
+
+    --- タッチがOFF→ONになったときだけtrue
+    local last_flag = x.last_flag
+    x.last_flag = is_touch
+    return last_flag ~= is_touch
+end
 
 return M

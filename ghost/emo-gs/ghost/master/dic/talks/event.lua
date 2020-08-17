@@ -26,12 +26,32 @@ end
 
 --クリック
 function EV:ダブルクリック(data, req)
-
-    local value = [=[
-\1\s[10]\0\s[B1124]アヒルやアヒル！\n11年ぶり、大阪にアヒルが\n帰ってくるねんで！\1\s[0]‥‥11年前って、\n覚えてるの？\e]=]
-
---  local value = [=[\1\![move,-353,,,0,base,base]\s[100]\0\s[0]\_qOnMouseDoubleClick\n\_qおや、ダブルクリックされたよ。\1\s[100]あいたたた？\e]=]
+    local value = [=[\1\![move,-353,,,0,base,base]\s[100]\0\s[0]\_qOnMouseDoubleClick\n\_qおや、ダブルクリックされたよ。\1\s[100]あいたたた？\e]=]
     return response.talk(value)
+end
+
+--おさわり反応
+local TOUCH = {}
+function TOUCH.Head0()
+    return "TOUCH.Head0"
+end
+function TOUCH.Bust0()
+    return "TOUCH.Bust0"
+end
+function TOUCH.Head1()
+    return "TOUCH.Head1"
+end
+function TOUCH.Bust1()
+    return "TOUCH.Bust1"
+end
+
+function EV:おさわり反応(data, req, actor, region)
+    local key = region .. actor
+    local fn  = TOUCH[key]
+    if type(fn) ~= "function" then
+        return self:no_entry(data, req)
+    end
+    return response.talk(fn())
 end
 
 --バルーン切り替え
@@ -39,7 +59,6 @@ function EV:バルーン切り替え(data, req)
     local value = [=[\1\s[100]\0\s[0]バルーン切り替えです。\w9\w9\1\s[100]ばるるるるん？\_w[600]\e]=]
     return response.ok(value)
 end
-
 
 --ネットワーク更新：ネットワーク更新開始
 function EV:更新開始(data, req)

@@ -12,7 +12,7 @@ function EV:OnSecondChange(data, req)
         return response.ok(value)   
     end
     if has_talk.normal(req.status_dic, data) then
-        return EV:ランダムトーク(data, req)
+        return self:ランダムトーク(data, req)
     end
     return self:no_entry(data, req)
 end
