@@ -28,6 +28,13 @@ function EV:バルーン切り替え(data, req)
 end
 
 
+--おさわり反応
+function EV:おさわり反応(data, req, actor, region)
+    local value = [=[\1\s[10]\0\s[0]《イベント： おさわり反応 》です。"]=].. actor ..[=["側の"]=].. region ..[=["がタッチされました。\e]=]
+    return response.talk(value)
+end
+
+
 --ネットワーク更新：ネットワーク更新開始
 function EV:更新開始(data, req)
     local value = [=[\1\s[10]\0\s[0]《イベント： 更新開始 》です。\e]=]
