@@ -26,23 +26,40 @@ end
 
 --クリック
 function EV:ダブルクリック(data, req)
-    local value = [=[\1\![move,-353,,,0,base,base]\s[100]\0\s[0]\_qOnMouseDoubleClick\n\_qおや、ダブルクリックされたよ。\1\s[100]あいたたた？\e]=]
+    local value = [=[\1\![move,-353,,,0,base,base]\s[100]\0\s[0]ダブルクリックで位置調整なんや。\1\s[100]ソーシャルディスタンスだね。\e]=]
+
     return response.talk(value)
 end
 
 --おさわり反応
 local TOUCH = {}
 function TOUCH.Head0()
-    return "TOUCH.Head0"
+    return [=[
+\1\![move,-353,,,0,base,base]\s[100]
+\0\s[5]撫でて伸ばすタイプなんや～。
+\1\s[8]うそっぽ～い。
+\e]=]
 end
 function TOUCH.Bust0()
-    return "TOUCH.Bust0"
+    return [=[
+\1\![move,-353,,,0,base,base]\s[100]
+\0\s[5]えっち、\n　すけっち、\n　　わんたっち～♪\w9
+\1\s[8]‥‥\n\w9昭和の香りがするよ。
+\e]=]
 end
 function TOUCH.Head1()
-    return "TOUCH.Head1"
+    return [=[
+\0\s[0]
+\1\s[3]な、なんだよう。
+\0\s[5]仕方ないなあ～、\n%usernameったらもう♪\w9
+\e]=]
 end
 function TOUCH.Bust1()
-    return "TOUCH.Bust1"
+    return [=[
+\0\s[0]
+\1\s[9]さ、触らないでよ！
+\0\s[5]もう、%usernameったら、いたずらっ子やねぇ。\w9
+\e]=]
 end
 
 function EV:おさわり反応(data, req, actor, region)
@@ -72,7 +89,13 @@ function EV:更新確認(data, req)
 end
 --ネットワーク更新：更新された
 function EV:更新成功(data, req)
-    local value = [=[\1\s[100]\0\s[B0823]更新したで！\1\s[5]どこが変わったかな？\e]=]
+    local value = [=[
+\1\s[100]
+\0\s[B0823]更新したで！
+\1\s[5]どこが変わったかな？
+\0\s[B1322]\n[150]おさわり反応、\n主にえも側や！
+\1\s[2]\nなんで！？
+\e]=]
     return response.talk(value)
 end
 --ネットワーク更新：更新されなかった
