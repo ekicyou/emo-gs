@@ -64,4 +64,23 @@ function M.get_status(status)
     return t
 end
 
+-- try catchを再現
+function M.try(what)
+    -- try
+    local status, rc = pcall(what.try)
+
+    -- catch
+    if not status then
+        if what.catch then  rc = what.catch(rc)
+        else                rc = nil
+        end
+    end
+
+    -- finally
+    if what.finally then what.finally()
+
+    -- end
+    return rc
+end
+
 return M

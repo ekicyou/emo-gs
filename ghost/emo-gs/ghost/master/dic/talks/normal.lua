@@ -1,13 +1,17 @@
-local o = require "talks.o"
-local _ = require "talks.word_dic" 
-local S = _.s; 
+local o    = require "talks.o"
+local _    = require "talks.word_dic" 
+local util = require "talks.util" 
 
-local function あああ(args)
+
+local えも  = require "talks.util_emo" 
+local 紫    = require "talks.util_murasaki" 
+
+local function 目に爆弾(args)
 
 end
 
 local function 異世界の門(args)
-    local t = ""
+    local t, S = util.start()
 
     local 地名 = _.地名()
     t = t .. S(0, "0")
@@ -17,23 +21,10 @@ local function 異世界の門(args)
     args = coroutine.yield(t)
 
     local 勇者      = _.人名()
-    t = ""
+    local t, S = util.start()
     t = t .. S(1, "0")
     t = t .. S(0, "B1124")  ..[[こないだ、]] ..地名.. [[から異世界に召喚された]] ..勇者.. [[が帰ってきたんよ。]]
     t = t .. S(1, "0")      ..[[どんなだった？]]
-
-    local function kero_end()
-        local t = ""
-        local a = math.random(3)
-        if a == 1 then
-            t = t .. S(1, "202" ,150) ..[[なにそれ？]]
-        elseif a == 2 then
-            t = t .. S(1, "2" ,150) ..[[うわあ‥‥？]]
-        else
-            t = t .. S(1, "205" ,150) ..[[すごーい！]]
-        end
-        return t
-    end
 
     if math.random(2) == 1 then
         local 能力          = _.能力()
@@ -41,14 +32,14 @@ local function 異世界の門(args)
         t = t .. S(0, "0"   ,100) ..'"'..能力.. [["に目覚めたって。]]
         t = t .. S(1, "200" ,150) ..[[‥‥ん？]]
         t = t .. S(0, "0"   ,100) ..XXXが出来る.. [[出来るんや。]]
-        t = t .. kero_end()
+        t = t .. えも.評価オチ()
         t = t .. [[\e]]
         args = coroutine.yield(t)
     else
         local 体の場所  = _.体の場所()
         local 物        = _.物()
         t = t .. S(0, "0" ,100) ..体の場所.. [[に]] ..物.. [[生やしとった。]]
-        t = t .. kero_end()
+        t = t .. えも.評価オチ()
         args = coroutine.yield(t)
     end
 

@@ -31,7 +31,12 @@ function EV:fire_request(data, req)
     end
 
     local function catch(ex)
-        return response.talk([=[\1\s[10]\0\s[0]エラー発生！\n]=].. ex ..[=[]=])
+        local text = string.gsub(ex,"\\", "\\\\")
+        text = string.gsub(text,"\r\n", "\\n")
+        text = string.gsub(text,"\r", "\\n")
+        local dic   = {["X-Catch"]=text }
+        local talk  = [=[\1\s[10]\0\s[0]\f[height,50%]\_qエラー発生！\n]=].. text ..[=[\f[height,default]\_q]=]
+        return response.talk(talk, dic)
     end
 
     return TRY_CATCH({try=try, catch=catch})
