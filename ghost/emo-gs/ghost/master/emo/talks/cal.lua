@@ -1,10 +1,10 @@
 local o = require "talks.o"
 local _ = require "talks.word_dic" 
-local util = require "talks.util" 
+local builder = require "talks.builder"
 
 local function 時報(hour)
     local cal = string.format("T%02d00", hour)
-    local t, S = util.start()
+    local t, S = builder.start()
     t = t .. S(1, "10")
     t = t .. S(0, "0") .. ..hour..[[時です。]]
     t = t .. [=[\e]=]

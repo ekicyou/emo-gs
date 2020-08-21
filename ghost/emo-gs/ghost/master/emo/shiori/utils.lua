@@ -77,7 +77,7 @@ function M.try(what)
     end
 
     -- finally
-    if what.finally then what.finally()
+    if what.finally then what.finally() end
 
     -- end
     return rc

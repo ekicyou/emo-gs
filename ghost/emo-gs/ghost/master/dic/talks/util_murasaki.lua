@@ -2,7 +2,7 @@
 
 local o = require "talks.o"
 local _ = require "talks.word_dic" 
-local util = require "talks.util"
+local builder = require "talks.builder"
 
 local 紫={}
 
