@@ -1,3 +1,5 @@
+-- 単語辞書制御
+
 local dkit = require "talks.dkit"
 local o  = require "talks.o"
 
@@ -55,18 +57,6 @@ function M.XXXが出来る()
     return CO.XXXが出来る()
 end
 
-function M.s(ch, sf, num)
-    local t = ""
-    if ch then
-        t = t .. "\\" .. ch
-    end
-    if sf then
-        t = t .. "\\s[" .. sf .."]"
-    end
-    if num then
-        t = t .. "\\n[" .. num .."]"
-    end
-    return t
-end
+
 
 return M

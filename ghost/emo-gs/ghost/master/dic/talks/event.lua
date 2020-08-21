@@ -87,17 +87,6 @@ function EV:更新確認(data, req)
     local value = [=[\1\s[100]\0\s[B1315]きたよぉ～。\1\s[8]期待しない方が‥‥\e]=]
     return response.talk(value)
 end
---ネットワーク更新：更新された
-function EV:更新成功(data, req)
-    local value = [=[
-\1\s[100]
-\0\s[B0823]更新したで！
-\1\s[5]どこが変わったかな？
-\0\s[B1322]\n[150]おさわり反応、\n主にえも側や！
-\1\s[2]\nなんで！？
-\e]=]
-    return response.talk(value)
-end
 --ネットワーク更新：更新されなかった
 function EV:更新無し(data, req)
     local value = [=[\1\s[210]\0\s[B0511]こえへん‥‥\1\s[202]ｲｷﾛｰ｡\e]=]
@@ -108,7 +97,18 @@ function EV:更新失敗(data, req)
     local value = [=[\1\s[210]\0\s[B0511]繋がらへん‥‥\1\s[202]ｲｷﾛｰ｡\e]=]
     return response.talk(value)
 end
-
+--ネットワーク更新：更新された
+function EV:更新成功(data, req)
+    local value = 
+[=[
+\1\s[100]
+\0\s[B0823]更新したで！
+\1\s[5]どこが変わったかな？
+\0\s[5]\n[150]時報対応！\n‥‥\s[A0932]ほんまにバグっとらん？
+\1\s[8]\n[150]深夜とか未試験だよね？
+\e]=]
+    return response.talk(value)
+end
 
 -------- ここからこのまま
 end
