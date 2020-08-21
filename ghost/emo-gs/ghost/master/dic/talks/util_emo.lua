@@ -20,9 +20,9 @@ function えも.危険オチ(talk)
     local C, S, T = talk.get()
     C(1, 150)
     local a = math.random(3)
-    if     a == 1 then S("3") T([[この星はもう‥‥。]])
-    elseif a == 2 then S("9") T([[当局は何をしてるの！]])
-    else               S("2") T([[やばーい！]])
+    if     a == 1 then S("3") T([[危険だ‥‥。]])
+    elseif a == 2 then S("2") T([[やばいじゃん！]])
+    else               S("5") T([[やばーい！]])
     end
 end
 

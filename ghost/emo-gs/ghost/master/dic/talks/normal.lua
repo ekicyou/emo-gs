@@ -7,7 +7,12 @@ local えも  = require "talks.util_emo"
 local 紫    = require "talks.util_murasaki" 
 
 local function 目に爆弾(args)
-
+    local talk, C, S, T = builder.new()
+    local 人名      = _.人名()
+    C(1) S("0")
+    C(0) S("0") T(人名) T([[って、\n目に爆弾抱えとるらしいで。]])
+    えも.危険オチ(talk)
+    args = coroutine.yield(talk.build())
 end
 
 local function 異世界の門(args)
@@ -52,7 +57,7 @@ local talk_items = {
 \e]=],
 
 異世界の門,
-
+目に爆弾,
 }
 
 
