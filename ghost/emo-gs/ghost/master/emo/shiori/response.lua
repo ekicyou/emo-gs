@@ -99,6 +99,13 @@ local function err(resion ,dic)
     return build("500 Internal Server Error", dic)
 end
 
+-- 204 No Content ワーニングあり
+local function warn(resion ,dic)
+    if not dic then dic={}
+    end
+    dic["X-Warn-Resion"] = resion
+    return no_content(dic)
+end
 
 
 -- talk             ウェイト処理を追加し、200 OK終了する。
@@ -122,6 +129,7 @@ local pub = {
     advice              = advice,
     bad_request         = bad_request,
     err                 = err,
+    warn                = warn,
     talk                = talk,
 }
 

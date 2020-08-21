@@ -4,11 +4,15 @@ local M = {}
 
 -- 会話中でなければtrue
 function M.quick(status_dic)
-    return status_dic.talking  ~= nil
+    return status_dic.talking
 end
 
 -- 会話終了後の経過時間を見て
 -- 発言可能かどうかを判断する関数
+-- 戻り値：
+--     0 発動OK
+--  数値 残り時間
+--    -1 会話中
 -- 参照：
 --   data.save.talking.wait_sec  : 会話終了後に発言を開ける秒数
 --   data.save.talking.time_talk : 最後に会話中だった時刻
@@ -27,13 +31,14 @@ function M.normal(status_dic, data)
     end
     if M.quick(status_dic) then
         x.time_talk = now
-        return false
+        return -1
     end
-    if now - x.time_talk < x.wait_sec then
-        return false
+    local remain_sec = -(now - x.time_talk - x.wait_sec)
+    if remain_sec <= 0 then
+        x.time_ok=now
+        return 0
     end
-    x.time_ok=now
-    return true
+    return remain_sec
 end
 
 -- おさわり反応の発動タイミングならtrueを返す関数
