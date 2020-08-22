@@ -6,34 +6,33 @@ local builder = require "talks.builder"
 
 local えも={}
 
-function えも.評価オチ(talk)
+local function SEL(talk, array)
     local C, S, T = talk.get()
     C(1, 150)
-    local a = math.random(3)
-    if     a == 1 then S("2") T([[なにそれ？]])
-    elseif a == 2 then S("2") T([[うわあ‥‥？]])
-    else               S("5") T([[すごーい！]])
-    end
+    o.SEL(array)(S,T)
 end
 
-function えも.危険オチ(talk)
-    local C, S, T = talk.get()
-    C(1, 150)
-    local a = math.random(3)
-    if     a == 1 then S("3") T([[危険だ‥‥。]])
-    elseif a == 2 then S("2") T([[やばいじゃん！]])
-    else               S("5") T([[やばーい！]])
-    end
-end
+local 評価オチ = {
+    function(S,T) S("2") T([[なにそれ？]])      end,
+    function(S,T) S("2") T([[うわあ‥‥？]])    end,
+    function(S,T) S("5") T([[すごーい！]])      end,
+}
+local 危険オチ = {
+    function(S,T) S("3") T([[危険だ‥‥。]])    end,
+    function(S,T) S("2") T([[やばいじゃん！]])  end,
+    function(S,T) S("5") T([[やばーい！]])      end,
+}
+local 逞しいオチ = {
+    function(S,T) S("2" ) T([[頑張って生きてるんだ‥‥。]]) end,
+    function(S,T) S("10") T([[そんなのでいいの？]])         end,
+    function(S,T) S("5" ) T([[たくましーい！]])             end,
+}
 
-function えも.逞しいオチ(talk)
-    local C, S, T = talk.get()
-    C(1, 150)
-    local a = math.random(3)
-    if     a == 1 then S("2" ) T([[頑張って生きてるんだ‥‥。]])
-    elseif a == 2 then S("10") T([[そんなのでいいの？]])
-    else               S("5" ) T([[たくましーい！]])
-    end
-end
+
+function えも.評価オチ(talk) SEL(talk, 評価オチ) end
+function えも.危険オチ(talk) SEL(talk, 危険オチ) end
+function えも.逞しいオチ(talk) SEL(talk, 逞しいオチ) end
+
+
 
 return えも

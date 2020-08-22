@@ -76,9 +76,18 @@ local function ONE(func)
     return task
 end
 
+
+-- 配列からランダムに要素を1つ選んで返す。
+local function SEL(array)
+    local counter = #array
+    local index = math.random(counter)
+    return array[index]
+end
+
 return {
     INFINITY = INFINITY,
     SEQ      = SEQ,
     RAND     = RAND,
     ONE      = ONE,
+    SEL      = SEL,
 }
