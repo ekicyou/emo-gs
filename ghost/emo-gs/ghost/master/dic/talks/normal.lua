@@ -2,15 +2,14 @@ local o    = require "talks.o"
 local _    = require "talks.word_dic" 
 local builder = require "talks.builder"
 
-
 local えも  = require "talks.util_emo" 
 local 紫    = require "talks.util_murasaki" 
 
-local function 目に爆弾(args)
+local function XXXらしいで(args)
     local talk, C, S, T = builder.new()
     local 人名      = _.人名()
     C(1) S("素")
-    C(0) S("素") T(人名) T([[って、\n目に爆弾抱えとるらしいで。]])
+    紫.人名って危険なXXXらしいで(talk)
     えも.危険オチ(talk)
     args = coroutine.yield(talk.build())
 end
@@ -57,7 +56,7 @@ local talk_items = {
 \e]=],
 
 異世界の門,
-目に爆弾,
+XXXらしいで,
 }
 
 
