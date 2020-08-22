@@ -4,7 +4,7 @@ SHIORI RESPONSE
     Charset: Shift_JIS[CRLF]
     Sender: サンプル[CRLF]
     SecurityLevel: local[CRLF]
-    Value: \0\s[0]おはこんばんちは。[CRLF]
+    Value: \0\s[素]おはこんばんちは。[CRLF]
     [CRLF]
 ]]
 
