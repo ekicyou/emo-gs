@@ -35,14 +35,14 @@ end
 local TOUCH = {}
 function TOUCH.Head0()
     return [=[
-\1\![move,-353,,,0,base,base]\s[100]
+\1\s[通常]
 \0\s[笑顔]撫でて伸ばすタイプなんや～。
 \1\s[冷笑]うそっぽ～い。
 \e]=]
 end
 function TOUCH.Bust0()
     return [=[
-\1\![move,-353,,,0,base,base]\s[100]
+\1\s[通常]
 \0\s[笑顔]えっち、\n　すけっち、\n　　わんたっち～♪\w9
 \1\s[冷笑]‥‥\n\w9昭和の香りがするよ。
 \e]=]
