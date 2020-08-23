@@ -166,6 +166,24 @@ local function ワンパターン人物(args)
 end
 
 
+local function 大人になっても(args)
+    local talk, C, S, T = builder.new()
+    C(1) S("通常")
+    C(0) S("通常") T("うち、") S("可愛い笑顔","小悪魔笑顔") T([[\n大人になってもええかな。]])
+    SEL({
+        function()
+            C(1) S("通常","静観") T("だめ。")
+            C(0) S("強い怒り","怒り","憤り") T("なんでやの！？")
+        end,
+        function()
+            C(1) S("通常","静観","冷笑") T("胸は変わらないって。")
+            C(0) S("強い怒り","怒り") T("ほっといて！")
+        end,
+    })
+    args = coroutine.yield(talk.build())
+end
+
+
 local talk_items = {
 ラバーダックが来た,
 異世界の門,
@@ -175,7 +193,9 @@ XXXらしいで,
 珍走団らしい,
 オオカミ少女,
 ワンパターン人物,
+大人になっても,
 }
+
 
 
 local co_talk = coroutine.wrap(o.INFINITY(o.RAND(talk_items)))
