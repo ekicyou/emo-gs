@@ -9,7 +9,8 @@ local えも={}
 local function SEL(talk, array)
     local C, S, T = talk.get()
     C(1, 150)
-    o.SEL(array)(S,T)
+    local entry = o.SEL(array)
+    if entry then return entry(S,T) end
 end
 
 
@@ -29,9 +30,9 @@ local 逞しいオチ = {
     function(S,T) S("ジト") T([[そんなのでいいの？]])         end,
     function(S,T) S("笑顔" ) T([[たくましーい！]])             end,
 }
-function えも.評価オチ(talk) SEL(talk, 評価オチ) end
-function えも.危険オチ(talk) SEL(talk, 危険オチ) end
-function えも.逞しいオチ(talk) SEL(talk, 逞しいオチ) end
+function えも.評価オチ(talk) return SEL(talk, 評価オチ) end
+function えも.危険オチ(talk) return SEL(talk, 危険オチ) end
+function えも.逞しいオチ(talk) return SEL(talk, 逞しいオチ) end
 
 
 
@@ -50,9 +51,9 @@ local 離婚オチ = {
     function(S,T) S("ジト") T([[うまくいきそうにないけど。]]) end,
     function(S,T) S("笑顔" ) T([[なりたりこーん！]]) end,
 }
-function えも.相手はどなた(talk) SEL(talk, 相手はどなた) end
-function えも.お祝いか逝ったかオチ(talk) SEL(talk, お祝いか逝ったかオチ) end
-function えも.離婚オチ(talk) SEL(talk, 離婚オチ) end
+function えも.相手はどなた(talk) return SEL(talk, 相手はどなた) end
+function えも.お祝いか逝ったかオチ(talk) return SEL(talk, お祝いか逝ったかオチ) end
+function えも.離婚オチ(talk) return SEL(talk, 離婚オチ) end
 
 
 
@@ -86,12 +87,12 @@ local 盛者必衰オチ = {
     function(S,T) S("静観") T([[祇園精舎の鐘の音‥‥。]]) end,
     function(S,T) S("笑顔") T([[いきてればいいことあるよ！]]) end,
 }
-function えも.友達多いか煽りオチ(talk) SEL(talk, 友達多いか煽りオチ) end
-function えも.自信満々オチ(talk) SEL(talk, 自信満々オチ) end
-function えも.疑問オチ(talk) SEL(talk, 疑問オチ) end
-function えも.頼りなさそうオチ(talk) SEL(talk, 頼りなさそうオチ) end
-function えも.待ってるよオチ(talk) SEL(talk, 待ってるよオチ) end
-function えも.盛者必衰オチ(talk) SEL(talk, 盛者必衰オチ) end
+function えも.友達多いか煽りオチ(talk) return SEL(talk, 友達多いか煽りオチ) end
+function えも.自信満々オチ(talk) return SEL(talk, 自信満々オチ) end
+function えも.疑問オチ(talk) return SEL(talk, 疑問オチ) end
+function えも.頼りなさそうオチ(talk) return SEL(talk, 頼りなさそうオチ) end
+function えも.待ってるよオチ(talk) return SEL(talk, 待ってるよオチ) end
+function えも.盛者必衰オチ(talk) return SEL(talk, 盛者必衰オチ) end
 
 
 
@@ -111,19 +112,20 @@ local 許せない返答オチ = {
     function(S,T) S("通常","怒り") T([[ほんとだよね。]]) end,
     function(S,T) S("笑顔") T([[色んなフレンズがいるんだね！]]) end,
 }
-function えも.人名って珍走団上がり(talk) SEL(talk, 人名って珍走団上がり) end
-function えも.伝説返答オチ(talk) SEL(talk, 伝説返答オチ) end
-function えも.許せない返答オチ(talk) SEL(talk, 許せない返答オチ) end
+function えも.人名って珍走団上がり(talk) return SEL(talk, 人名って珍走団上がり) end
+function えも.伝説返答オチ(talk) return SEL(talk, 伝説返答オチ) end
+function えも.許せない返答オチ(talk) return SEL(talk, 許せない返答オチ) end
 
 
 
 local オオカミ少女 = {
     function(S,T) S("驚き","照れ怒り") T([[アプリケーションエラーだ！]]) end,
-    function(S,T) S("驚き","照れ怒り") T([[ウイルス感染！]]) end,
+    function(S,T) S("驚き","照れ怒り") T([[ゼロ割発生！]]) end,
+    function(S,T) S("驚き","照れ怒り") T([[ヌルぽ！]]) return true end,
     function(S,T) S("通常","静観") T([[不正な処理です。]]) end,
     function(S,T) S("笑顔") T([[メモリが足りないから電源落とすね！]]) end,
 }
-function えも.オオカミ少女(talk) SEL(talk, オオカミ少女) end
+function えも.オオカミ少女(talk) return SEL(talk, オオカミ少女) end
 
 
 
@@ -137,8 +139,8 @@ local 中の人の情熱が無くなった = {
     function(S,T) S("驚き","不安","落胆","照れ怒り") T([[中の人が行方不明だって。]]) end,
     function(S,T) S("通常","静観") T([[旅に出たそうだよ、中の人。]]) end,
 }
-function えも.更新さぼってる(talk) SEL(talk, 更新さぼってる) end
-function えも.中の人の情熱が無くなった(talk) SEL(talk, 中の人の情熱が無くなった) end
+function えも.更新さぼってる(talk) return SEL(talk, 更新さぼってる) end
+function えも.中の人の情熱が無くなった(talk) return SEL(talk, 中の人の情熱が無くなった) end
 
 
 return えも

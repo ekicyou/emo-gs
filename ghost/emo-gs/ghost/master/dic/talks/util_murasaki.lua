@@ -9,7 +9,8 @@ local 紫={}
 local function SEL(talk, array)
     local C, S, T = talk.get()
     C(0, 150)
-    o.SEL(array)(S,T)
+    local entry = o.SEL(array)
+    if entry then return entry(S,T) end
 end
 
 local 人名って危険なXXXらしいで = {
@@ -21,7 +22,7 @@ local 人名って危険なXXXらしいで = {
     function(S,T) S("通常") T(_.人名()) T([[につける薬はないらしいで。]]) end,
     function(S,T) S("通常") T(_.人名()) T([[って、\n]]) T(_.XXXが出来る()) T([[が出来るらしいで。]])    end,
 }
-function 紫.人名って危険なXXXらしいで(talk) SEL(talk, 人名って危険なXXXらしいで) end
+function 紫.人名って危険なXXXらしいで(talk) return SEL(talk, 人名って危険なXXXらしいで) end
 
 
 
@@ -35,17 +36,17 @@ local どうも人名らしいで = {
     function(S,T) S("通常","不安") T([[噂やけど、\n]]) T(_.人名()) T([[かもしれん。]]) end,
 }
 local 逝ったか = {
-    function(S,T) S("通常","不安") T([[‥‥そうか、奴も逝ったんや。]]) end,
+    function(S,T) S("通常","不安") T([[‥‥あの子も逝ったんや。]]) end,
     function(S,T) S("通常","不安") T([[‥‥短い人生やったな。]]) end,
 }
 local 多分かなり = {
     function(S,T) S("通常","笑顔") T([[多分。]]) end,
     function(S,T) S("通常","笑顔") T([[かなり。]]) end,
 }
-function 紫.人名って結婚するらしいで(talk) SEL(talk, 人名って結婚するらしいで) end
-function 紫.どうも人名らしいで(talk) SEL(talk, どうも人名らしいで) end
-function 紫.逝ったか(talk) SEL(talk, 逝ったか) end
-function 紫.多分かなり(talk) SEL(talk, 多分かなり) end
+function 紫.人名って結婚するらしいで(talk) return SEL(talk, 人名って結婚するらしいで) end
+function 紫.どうも人名らしいで(talk) return SEL(talk, どうも人名らしいで) end
+function 紫.逝ったか(talk) return SEL(talk, 逝ったか) end
+function 紫.多分かなり(talk) return SEL(talk, 多分かなり) end
 
 
 
@@ -54,7 +55,7 @@ local 意味不明オチ = {
     function(S,T) S("通常") T([[‥‥意味不明やけど。]]) end,
     function(S,T) S("通常","笑顔")  T([[‥‥ネタふるぅない？]]) end,
 }
-function 紫.意味不明オチ(talk) SEL(talk, 意味不明オチ) end
+function 紫.意味不明オチ(talk) return SEL(talk, 意味不明オチ) end
 
 
 
@@ -68,8 +69,8 @@ local 許せない = {
     function(S,T) S("通常","憤り","静観") T([[‥‥うち、\n許せんわ。]]) end,
     function(S,T) S("通常","笑顔","静観")  T([[来世になったら許したる。]]) end,
 }
-function 紫.奴は伝説(talk) SEL(talk, 奴は伝説) end
-function 紫.許せない(talk) SEL(talk, 許せない) end
+function 紫.奴は伝説(talk) return SEL(talk, 奴は伝説) end
+function 紫.許せない(talk) return SEL(talk, 許せない) end
 
 
 
@@ -78,7 +79,11 @@ local 嘘やけどな = {
     function(S,T) S("通常","憤り","静観") T([[‥‥え、\nせやった？]]) end,
     function(S,T) S("強い怒り","怒り","憤り") T([[こら！\nオオカミ少女になるで！]]) end,
 }
-function 紫.嘘やけどな(talk) SEL(talk, 嘘やけどな) end
+local ガッ = {
+    function(S,T) S("強い怒り","怒り") T([[ガッ！！]]) end,
+}
+function 紫.嘘やけどな(talk) return SEL(talk, 嘘やけどな) end
+function 紫.ガッ(talk) return SEL(talk, ガッ) end
 
 
 
@@ -100,9 +105,9 @@ local 中の人の情熱返答オチ = {
     許せない,
     意味不明オチ,
 }
-function 紫.人物ってワンパターン(talk) SEL(talk, 人物ってワンパターン) end
-function 紫.びっくりオチ(talk) SEL(talk, びっくりオチ) end
-function 紫.中の人の情熱返答オチ(talk) SEL(talk, 中の人の情熱返答オチ) end
+function 紫.人物ってワンパターン(talk) return SEL(talk, 人物ってワンパターン) end
+function 紫.びっくりオチ(talk) return SEL(talk, びっくりオチ) end
+function 紫.中の人の情熱返答オチ(talk) return SEL(talk, 中の人の情熱返答オチ) end
 
 
 
