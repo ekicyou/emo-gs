@@ -11,7 +11,7 @@ return function(EV)
 -- 会話終了後、待機時間が終了したら一般会話イベントを発行。
 function EV:OnSecondChange(data, req)
     if type(data) ~= "table" then
-        local value = [=[\1\s[10]\0\s[0]ERROR\e]=]
+        local value = [=[\1\s[10]\0\s[通常]ERROR\e]=]
         return response.ok(value)   
     end
     -- イベントトーク判定

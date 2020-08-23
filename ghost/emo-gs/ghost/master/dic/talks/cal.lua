@@ -2,105 +2,89 @@ local o = require "talks.o"
 local _ = require "talks.word_dic" 
 local builder = require "talks.builder"
 
-local function 時報深夜０時(hour)
+local function 時報共通(hour, talk)
     local cal = string.format("T%02d00", hour)
-    local t, S = builder.start()
-    t = t .. S(0, "0")
-    t = t .. S(1, "0") .. [[深夜0時になったよ。]]
-    t = t .. S(0, "3") .. [[新しい日‥‥はええから、寝よ寝よ。]]
-    t = t .. [=[\e]=]
-    return {cal=cal, talk=t}
+    return {cal=cal, talk=talk.build()}
 end
 
+local function 時報深夜０時(hour)
+    local talk, C, S, T = builder.new()
+    C(0) S("通常")
+    C(1) S("通常") T([[深夜0時になったよ。]])
+    C(0) S("不安") T([[新しい日‥‥はええから、寝よ寝よ。]])
+    return 時報共通(hour, talk)
+end
 
 local function 時報深夜(hour)
-    local cal = string.format("T%02d00", hour)
-    local t, S = builder.start()
-    t = t .. S(0, "0")
-    t = t .. S(1, "0") .. [[午前]]..hour..[[時になったよ。]]
-    t = t .. S(0, "6") .. [[（‥‥ぐぅ）]]
-    t = t .. [=[\e]=]
-    return {cal=cal, talk=t}
+    local talk, C, S, T = builder.new()
+    C(0) S("静観")
+    C(1) S("通常") T([[午前]]..hour..[[時になったよ。]])
+    C(0) S("静観") T([[（‥‥ぐぅ）]])
+    return 時報共通(hour, talk)
 end
 
 local function 時報早朝(hour)
-    local cal = string.format("T%02d00", hour)
-    local t, S = builder.start()
-    t = t .. S(0, "0")
-    t = t .. S(1, "0") .. [[午前]]..hour..[[時になったよ。]]
-    t = t .. S(0, "4") .. [[うぅ、起こさんといて、二度寝‥‥。]]
-    t = t .. [=[\e]=]
-    return {cal=cal, talk=t}
+    local talk, C, S, T = builder.new()
+    C(0) S("通常")
+    C(1) S("通常") T([[午前]]..hour..[[時になったよ。]])
+    C(0) S("落胆") T([[うぅ、起こさんといて、二度寝‥‥。]])
+    return 時報共通(hour, talk)
 end
 
 local function 時報朝(hour)
-    local cal = string.format("T%02d00", hour)
-    local t, S = builder.start()
-    t = t .. S(0, "0")
-    t = t .. S(1, "0") .. [[午前]]..hour..[[時になったよ。]]
-    t = t .. S(0, "5") .. [[おはよー！パンを咥えて、\n気になるあの子にぶつかるでー。]]
-    t = t .. [=[\e]=]
-    return {cal=cal, talk=t}
+    local talk, C, S, T = builder.new()
+    C(0) S("通常")
+    C(1) S("通常") T([[午前]]..hour..[[時になったよ。]])
+    C(0) S("笑顔") T([[おはよー！パンを咥えて、\n気になるあの子にぶつかるでー。]])
+    return 時報共通(hour, talk)
 end
 
 local function 時報午前(hour)
-    local cal = string.format("T%02d00", hour)
-    local t, S = builder.start()
-    t = t .. S(0, "0")
-    t = t .. S(1, "0") .. [[午前]]..hour..[[時になったよ。]]
-    t = t .. S(0, "4") .. [[うち、まだ眠いわ‥‥。]]
-    t = t .. [=[\e]=]
-    return {cal=cal, talk=t}
+    local talk, C, S, T = builder.new()
+    C(0) S("通常")
+    C(1) S("通常") T([[午前]]..hour..[[時になったよ。]])
+    C(0) S("落胆") T([[うち、まだ眠いわ‥‥。]])
+    return 時報共通(hour, talk)
 end
 
 local function 時報正午(hour)
-    local cal = string.format("T%02d00", hour)
-    local t, S = builder.start()
-    t = t .. S(0, "0")
-    t = t .. S(1, "0") .. [[正午だよ。]]
-    t = t .. S(0, "5") .. [[おっひるはなにかいなー♪]]
-    t = t .. [=[\e]=]
-    return {cal=cal, talk=t}
+    local talk, C, S, T = builder.new()
+    C(0) S("通常")
+    C(1) S("通常") T([[正午だよ。]])
+    C(0) S("笑顔") T([[おっひるはなにかいなー♪]])
+    return 時報共通(hour, talk)
 end
 
 local function 時報午後(hour)
-    local cal = string.format("T%02d00", hour)
-    local t, S = builder.start()
-    t = t .. S(0, "0")
-    t = t .. S(1, "0") .. [[午後]]..(hour-12)..[[時になったよ。]]
-    t = t .. S(0, "5") .. [[午後もがんばろー！]]
-    t = t .. [=[\e]=]
-    return {cal=cal, talk=t}
+    local talk, C, S, T = builder.new()
+    C(0) S("通常")
+    C(1) S("通常") T([[午後]]..(hour-12)..[[時になったよ。]])
+    C(0) S("笑顔") T([[午後もがんばろー！]])
+    return 時報共通(hour, talk)
 end
 
 local function 時報夕方(hour)
-    local cal = string.format("T%02d00", hour)
-    local t, S = builder.start()
-    t = t .. S(0, "0")
-    t = t .. S(1, "0") .. [[午後]]..(hour-12)..[[時になったよ。]]
-    t = t .. S(0, "0") .. [[そろそろ夕方やね。]]
-    t = t .. [=[\e]=]
-    return {cal=cal, talk=t}
+    local talk, C, S, T = builder.new()
+    C(0) S("通常")
+    C(1) S("通常") T([[午後]]..(hour-12)..[[時になったよ。]])
+    C(0) S("通常") T([[そろそろ夕方やね。]])
+    return 時報共通(hour, talk)
 end
 
 local function 時報晩御飯(hour)
-    local cal = string.format("T%02d00", hour)
-    local t, S = builder.start()
-    t = t .. S(0, "0")
-    t = t .. S(1, "0") .. [[午後]]..(hour-12)..[[時になったよ。]]
-    t = t .. S(0, "5") .. [[お夕飯はなにかいなー♪]]
-    t = t .. [=[\e]=]
-    return {cal=cal, talk=t}
+    local talk, C, S, T = builder.new()
+    C(0) S("通常")
+    C(1) S("通常") T([[午後]]..(hour-12)..[[時になったよ。]])
+    C(0) S("笑顔") T([[お夕飯はなにかいなー♪]])
+    return 時報共通(hour, talk)
 end
 
 local function 時報夜(hour)
-    local cal = string.format("T%02d00", hour)
-    local t, S = builder.start()
-    t = t .. S(0, "0")
-    t = t .. S(1, "0") .. [[午後]]..(hour-12)..[[時になったよ。]]
-    t = t .. S(0, "8") .. [[夜更かしはほどほどにして、\n寝なあかんよ。]]
-    t = t .. [=[\e]=]
-    return {cal=cal, talk=t}
+    local talk, C, S, T = builder.new()
+    C(0) S("通常")
+    C(1) S("通常") T([[午後]]..(hour-12)..[[時になったよ。]])
+    C(0) S("苦笑") T([[夜更かしはほどほどにして、\n寝なあかんよ。]])
+    return 時報共通(hour, talk)
 end
 
 local talk_items = {
