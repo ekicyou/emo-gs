@@ -6,7 +6,8 @@ local えも  = require "talks.util_emo"
 local 紫    = require "talks.util_murasaki" 
 
 local function SEL(array)
-    return o.SEL(array)()
+    local entry = o.SEL(array)
+    if entry then return entry() end
 end
 
 
@@ -94,7 +95,7 @@ local function ファイナルアンサー(args)
             紫.意味不明オチ(talk) 
         end,
         function() 
-            C(0) S("通常","静観") T([[みのは不滅、\nうち、そう思っとったわ‥‥。]])
+            C(0) S("通常","静観") T([[みのは不滅、\nうち、そう思とったわ‥‥。]])
             えも.盛者必衰オチ(talk)
         end,
         function()
@@ -143,8 +144,9 @@ end
 local function オオカミ少女(args)
     local talk, C, S, T = builder.new()
     C(0) S("通常")
-    えも.オオカミ少女(talk)
-    紫.嘘やけどな(talk)
+    if えも.オオカミ少女(talk) then 紫.ガッ(talk)
+    else                            紫.嘘やけどな(talk)
+    end
     args = coroutine.yield(talk.build())
 end
 
