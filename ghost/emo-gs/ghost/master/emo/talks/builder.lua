@@ -1,6 +1,13 @@
 -- トーク組み立てビルダ
 local M = {}
 
+-- 配列からランダムに要素を1つ選んで返す。
+local function SEL(array)
+    local counter = #array
+    local index = math.random(counter)
+    return array[index]
+end
+
 -- builderを返す
 -- local C, S, T = builder.new()
 function M.new()
@@ -27,8 +34,9 @@ function M.new()
     end
 
     -- サーフェス切り替え
-    local function change_surface(id)
-        t = t .. "\\s[" .. id .."]"
+    local function change_surface(...)
+        local id = SEL({...})
+        if id then t = t .. "\\s[" .. id .."]" end
     end
 
     -- テキスト追加

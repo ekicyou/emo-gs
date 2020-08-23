@@ -78,10 +78,16 @@ end
 
 
 -- 配列からランダムに要素を1つ選んで返す。
+-- 選択要素が配列だった場合は再帰的にランダム選択する。
 local function SEL(array)
-    local counter = #array
-    local index = math.random(counter)
-    return array[index]
+    local function SELECT(items)
+        local counter = #items
+        local index = math.random(counter)
+        local item= items[index]
+        if type(item)=="table" then return SELECT(item) end
+        return item
+    end
+    return SELECT(array)
 end
 
 return {

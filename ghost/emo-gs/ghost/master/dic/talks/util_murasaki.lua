@@ -13,11 +13,94 @@ local function SEL(talk, array)
 end
 
 local 人名って危険なXXXらしいで = {
-    function(S,T) T(_.人名()) T([[って、\n]]) T([[目に爆弾抱えとるらしいで。]]) end,
-    function(S,T) T(_.人名()) T([[につける薬はないらしいで。]]) end,
-    function(S,T) T(_.人名()) T([[って、\n]]) T(_.XXXが出来る()) T([[が出来るらしいで。]])    end,
+    function(S,T) S("通常") T(_.人名()) T([[って、\n]]) T([[目に爆弾抱えとるらしいで。]]) end,
+    function(S,T) S("通常") T(_.人名()) T([[につける薬はないらしいで。]]) end,
+    function(S,T) S("通常") T(_.人名()) T([[って、\n]]) T(_.XXXが出来る()) T([[が出来るらしいで。]])    end,
 }
 function 紫.人名って危険なXXXらしいで(talk) SEL(talk, 人名って危険なXXXらしいで) end
+
+
+
+local 人名って結婚するらしいで = {
+    function(S,T) S("通常","笑顔") T(_.人名()) T([[って、\n]]) T([[今度結婚するらしいで。]]) end,
+    function(S,T) S("通常","笑顔") T(_.人名()) T([[に、\n]]) T([[結婚の噂があるやんか。]]) end,
+}
+local どうも人名らしいで = {
+    function(S,T) S("通常","不安") T([[相手、\n]]) T(_.人名()) T([[やって。]]) end,
+    function(S,T) S("通常","不安") T([[どうも、\n]]) T(_.人名()) T([[らしいで。]]) end,
+    function(S,T) S("通常","不安") T([[噂やけど、\n]]) T(_.人名()) T([[かもしれん。]]) end,
+}
+local 逝ったか = {
+    function(S,T) S("通常","不安") T([[‥‥そうか、奴も逝ったんや。]]) end,
+    function(S,T) S("通常","不安") T([[‥‥短い人生やったな。]]) end,
+}
+local 多分かなり = {
+    function(S,T) S("通常","笑顔") T([[多分。]]) end,
+    function(S,T) S("通常","笑顔") T([[かなり。]]) end,
+}
+function 紫.人名って結婚するらしいで(talk) SEL(talk, 人名って結婚するらしいで) end
+function 紫.どうも人名らしいで(talk) SEL(talk, どうも人名らしいで) end
+function 紫.逝ったか(talk) SEL(talk, 逝ったか) end
+function 紫.多分かなり(talk) SEL(talk, 多分かなり) end
+
+
+
+local 意味不明オチ = {
+    function(S,T) S("通常","笑顔","不安","苦笑") T([[‥‥えっと？]]) end,
+    function(S,T) S("通常") T([[‥‥意味不明やけど。]]) end,
+    function(S,T) S("通常","笑顔")  T([[‥‥ネタふるぅない？]]) end,
+}
+function 紫.意味不明オチ(talk) SEL(talk, 意味不明オチ) end
+
+
+
+local 奴は伝説 = {
+    function(S,T) S("通常","静観","不安","苦笑") T([[アイツは伝説やからな‥‥。]]) end,
+    function(S,T) S("笑顔","興奮笑顔") T([[せや！\n凄い伝説なんやで！]]) end,
+    function(S,T) S("通常","苦笑")  T([[‥‥伝説ちゃあ、\n伝説やったな。]]) end,
+}
+local 許せない = {
+    function(S,T) S("強い怒り","怒り","憤り") T([[許せん奴やわ！]]) end,
+    function(S,T) S("通常","憤り","静観") T([[‥‥うち、\n許せんわ。]]) end,
+    function(S,T) S("通常","笑顔","静観")  T([[来世になったら許したる。]]) end,
+}
+function 紫.奴は伝説(talk) SEL(talk, 奴は伝説) end
+function 紫.許せない(talk) SEL(talk, 許せない) end
+
+
+
+local 嘘やけどな = {
+    function(S,T) S("通常","笑顔","静観")  T([[ウソやけどな。]]) end,
+    function(S,T) S("通常","憤り","静観") T([[‥‥え、\nせやった？]]) end,
+    function(S,T) S("強い怒り","怒り","憤り") T([[こら！\nオオカミ少女になるで！]]) end,
+}
+function 紫.嘘やけどな(talk) SEL(talk, 嘘やけどな) end
+
+
+
+local 人物ってワンパターン = {
+    function(S,T) S("通常","静観","不安","苦笑") T([[最近の]])T(_.人名()) T([[って、\n会話がワンパターンらしいで。]]) end,
+    function(S,T) S("通常","静観","不安","苦笑") T(_.人名()) T([[やけど、\n最近ワンパターンやない？]]) end,
+    function(S,T) S("通常","静観","不安","苦笑") T(_.人名()) T([[が、\nおんなじことばっかりいうらしいんや。]]) end,
+}
+local びっくりオチ = {
+    function(S,T) S("驚き","怒り","憤り") T([[なんやて！？]]) end,
+    function(S,T) S("驚き","憤り","そんなあ") T([[そんなぁ～！]]) end,
+    function(S,T) S("驚き")  T([[‥‥えっ！？]]) end,
+    意味不明オチ,
+}
+local 中の人の情熱返答オチ = {
+    function(S,T) S("強い怒り","怒り","憤り") T([[まだや！\n燃え尽きるには早いで！]]) end,
+    function(S,T) S("強い怒り","怒り","憤り") T([[中の人なんておらへん！]]) end,
+    function(S,T) S("通常","不安","落胆","憤り","静観","期待外れ") T([[作家に情熱が消えたらおしまいなんや‥‥]]) end,
+    許せない,
+    意味不明オチ,
+}
+function 紫.人物ってワンパターン(talk) SEL(talk, 人物ってワンパターン) end
+function 紫.びっくりオチ(talk) SEL(talk, びっくりオチ) end
+function 紫.中の人の情熱返答オチ(talk) SEL(talk, 中の人の情熱返答オチ) end
+
+
 
 --エイリアス
 -- |0:腕   |1:紅   |2:口     |3:眉     |4:目     |
@@ -26,7 +109,7 @@ function 紫.人名って危険なXXXらしいで(talk) SEL(talk, 人名って�
 -- |B:組み |1:差し |2:笑顔２ |2:オコ   |2:ジトー |
 --                 |3:口開   |3:悲しみ |3:通常   |
 --                 |4:うや？ |4:シュン |4:笑顔   |
---                 |5:うう‥ |         |5:静観 |
+--                 |5:うう‥ |         |5:静観   |
 --                 |6:む？   |
 --                 |7:‥‥   |
 --                 |8:にこっ |

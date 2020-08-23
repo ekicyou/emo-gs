@@ -5,7 +5,7 @@ return function(EV)
 
 --ランダムトーク
 function EV:ランダムトーク(data, req)
-    local value = [=[\1\s[10]\0\s[素]《イベント： ランダムトーク 》です。\e]=]
+    local value = [=[\1\s[10]\0\s[通常]《イベント： ランダムトーク 》です。\e]=]
     return response.talk(value)
 end
 
