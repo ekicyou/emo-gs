@@ -135,9 +135,9 @@ local 更新さぼってる = {
     function(S,T) S("通常","静観") T([[次のオリンピックに更新があるよ。]]) end,
 }
 local 中の人の情熱が無くなった = {
-    function(S,T) S("通常","静観","不安","落胆") T([[中の人の情熱が無くなったらしいよ。]]) end,
-    function(S,T) S("驚き","不安","落胆","照れ怒り") T([[中の人が行方不明だって。]]) end,
-    function(S,T) S("通常","静観") T([[旅に出たそうだよ、中の人。]]) end,
+    function(S,T) S("通常","静観","不安","落胆") T([[中の人の情熱が\n無くなったらしいよ。]]) end,
+    function(S,T) S("驚き","不安","落胆","照れ怒り") T([[中の人が\n行方不明だって。]]) end,
+    function(S,T) S("通常","静観") T([[旅に出たそうだよ、\n中の人。]]) end,
 }
 function えも.更新さぼってる(talk) return SEL(talk, 更新さぼってる) end
 function えも.中の人の情熱が無くなった(talk) return SEL(talk, 中の人の情熱が無くなった) end
