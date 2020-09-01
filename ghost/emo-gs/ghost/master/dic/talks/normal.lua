@@ -11,13 +11,13 @@ local function SEL(array)
 end
 
 
-local function ラバーダックが来た(args)
-    local t = [=[
-\1\s[10]
-\0\s[興奮笑顔]アヒルやアヒル！\n11年ぶり、大阪にアヒルが\n帰ってくるねんで！
-\1\s[10]‥‥11年前って、\n覚えてるの？
-\e]=]
-    args = coroutine.yield(t)
+local function ラバーダック(args)
+    local talk, C, S, T = builder.new()
+    local 地名 = _.地名()
+    C(1) S("通常")
+    C(0) S("びえー") T([[ラバーダックが、]]) T(地名) T([[からおらんようなってもた‥‥。]])
+    C(1) S("驚き") T([[ｲｷﾛｰ。]])
+    args = coroutine.yield(talk.build())
 end
 
 local function 異世界の門(args)
@@ -187,7 +187,7 @@ end
 
 
 local talk_items = {
-ラバーダックが来た,
+ラバーダック,
 異世界の門,
 XXXらしいで,
 結婚するらしい,
@@ -197,7 +197,6 @@ XXXらしいで,
 ワンパターン人物,
 大人になっても,
 }
-
 
 
 local co_talk = coroutine.wrap(o.INFINITY(o.RAND(talk_items)))
