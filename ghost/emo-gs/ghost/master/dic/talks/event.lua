@@ -21,7 +21,6 @@ end
 --起動トーク
 function EV:起動(data, req)
     local s = [=[\1\s[10]\0\s[笑顔]起動したで！\1\s[通常]や、お久しぶり。\e]=]
-    local s = [=[\1\s[100]\0\s[落胆]アヒルがもうすぐ、\w3\n大阪から去ってまう‥\w3‥\w3。\w3\1\s[驚き]ｲｷﾛｰ｡\w9\e]=]
     return response.talk(s)
 end
 
