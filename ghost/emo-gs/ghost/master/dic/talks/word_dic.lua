@@ -1,10 +1,11 @@
 -- 単語辞書制御
+local M    = {}
+local CO   = {}
 
 local dkit = require "talks.dkit"
 local o  = require "talks.o"
 
-local M = {}
-local CO = {}
+
 
 local function create_db()
     local csv_data = require "talks.word"
